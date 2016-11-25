@@ -1,0 +1,5459 @@
+{
+    "MEDICATION": {
+        "Count": 188,
+        "Records": [
+            {
+                "NAMECN": "抗高血压药，血管紧张素转换酶抑制剂",
+                "DD": "2004-06-29",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERTENSIVES, ACE INHIBITORS"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "抗高血压药，血管紧张素转换酶抑制剂",
+                "DD": "2004-06-29",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERTENSIVES, ACE INHIBITORS"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "抗高血压药，血管紧张素转换酶抑制剂",
+                "DD": "2004-06-29",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERTENSIVES, ACE INHIBITORS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "镇痛药，麻醉剂",
+                "DD": "2004-03-27",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANALGESICS, NARCOTICS"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "抗高血压药，血管紧张素转换酶抑制剂",
+                "DD": "2004-06-29",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERTENSIVES, ACE INHIBITORS"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "镇痛药，麻醉剂",
+                "DD": "2004-03-27",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANALGESICS, NARCOTICS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "镇痛药，麻醉剂",
+                "DD": "2004-03-27",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANALGESICS, NARCOTICS"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "抗高血压药，血管紧张素转换酶抑制剂",
+                "DD": "2004-06-29",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERTENSIVES, ACE INHIBITORS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "大环内酯类",
+                "DD": "2005-04-07",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "MACROLIDES"
+            },
+            {
+                "NAMECN": "麻醉性镇咳药，第一代抗组胺药",
+                "DD": "2004-11-03",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "NARCOTIC ANTITUSSIVE-1ST GENERATION ANTIHISTAMINE"
+            },
+            {
+                "NAMECN": "非甾体类抗炎药，环氧合酶抑制剂类",
+                "DD": "2004-11-03",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "NSAIDS, CYCLOOXYGENASE INHIBITOR - TYPE"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "大环内酯类",
+                "DD": "2005-04-07",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "MACROLIDES"
+            },
+            {
+                "NAMECN": "麻醉性止咳药-第一代抗组胺剂，解除充血",
+                "DD": "2005-04-07",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "NARCOTIC ANTITUSS-1ST GEN. ANTIHISTAMINE-DECONGEST"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "降血糖，胰岛素应答增强剂（N-S）",
+                "DD": "2005-08-24",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC, INSULIN-RESPONSE ENHANCER (N-S)"
+            },
+            {
+                "NAMECN": "止吐/抗眩晕剂",
+                "DD": "2005-07-06",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIEMETIC/ANTIVERTIGO AGENTS"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "降血糖，胰岛素应答增强剂（N-S）",
+                "DD": "2005-08-24",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC, INSULIN-RESPONSE ENHANCER (N-S)"
+            },
+            {
+                "NAMECN": "厌氧抗原虫，抗菌剂",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANAEROBIC ANTIPROTOZOAL-ANTIBACTERIAL AGENTS"
+            },
+            {
+                "NAMECN": "鼻抗炎甾",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "NASAL ANTI-INFLAMMATORY STEROIDS"
+            },
+            {
+                "NAMECN": "喹诺酮类",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "QUINOLONES"
+            },
+            {
+                "NAMECN": "钙通道阻断剂",
+                "DD": "2005-08-14",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "CALCIUM CHANNEL BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，双胍类（非磺脲类）",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC,BIGUANIDE TYPE(NON-SULFONYLUREA)"
+            },
+            {
+                "NAMECN": "抗高血脂 - HMG CoA还原酶抑制剂",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERLIPIDEMIC - HMG COA REDUCTASE INHIBITORS"
+            },
+            {
+                "NAMECN": "β-肾上腺素能阻断剂",
+                "DD": "2005-08-19",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "BETA-ADRENERGIC BLOCKING AGENTS"
+            },
+            {
+                "NAMECN": "降血糖，胰岛素应答增强剂（N-S）",
+                "DD": "2005-08-24",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "ANTIHYPERGLYCEMIC, INSULIN-RESPONSE ENHANCER (N-S)"
+            },
+            {
+                "NAMECN": "甲状腺激素",
+                "DD": "2005-08-26",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Orders",
+                "NAMEEN": "THYROID HORMONES"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            },
+            {
+                "NAMECN": "阿托伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN"
+            },
+            {
+                "NAMECN": "伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ATORVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "氟伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "FLUVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "洛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "LOVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN"
+            },
+            {
+                "NAMECN": "普伐他汀钠",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "PRAVASTATIN SODIUM"
+            },
+            {
+                "NAMECN": "罗苏伐他汀钙",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "ROSUVASTATIN CALCIUM"
+            },
+            {
+                "NAMECN": "辛伐他汀",
+                "DD": "2005-08-18",
+                "FVAL": 1,
+                "FTYPE": "MEDICATION",
+                "SUBFTYPE": "Ingredient",
+                "NAMEEN": "SIMVASTATIN"
+            }
+        ]
+    },
+    "Return": 1,
+    "Records_Count": 549,
+    "LAB": {
+        "Count": 164,
+        "Records": [
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 60,
+                "NAMECN": "高密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 53,
+                "HIGH": 50,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "HDL",
+                "UNIT": "mg/dL"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 9,
+                "NAMECN": "血红蛋白/总血红蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 8.4,
+                "HIGH": 7,
+                "FTYPE": "LAB",
+                "LOW": 6.4,
+                "NAMEEN": "HEMOGLOBIN A1C/HEMOGLOBIN.TOTA",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 190,
+                "NAMECN": "低密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 100,
+                "FVAL": 102,
+                "HIGH": 160,
+                "FTYPE": "LAB",
+                "LOW": 130,
+                "NAMEEN": "LDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 500,
+                "NAMECN": "甘油三酯",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 143,
+                "HIGH": 200,
+                "FTYPE": "LAB",
+                "LOW": 150,
+                "NAMEEN": "TRIG",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 125,
+                "NAMECN": "极低密度脂蛋白胆固醇",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 29,
+                "HIGH": 40,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "CHOLESTEROL.IN VLDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 60,
+                "NAMECN": "高密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 53,
+                "HIGH": 50,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "HDL",
+                "UNIT": "mg/dL"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 9,
+                "NAMECN": "血红蛋白/总血红蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 8.4,
+                "HIGH": 7,
+                "FTYPE": "LAB",
+                "LOW": 6.4,
+                "NAMEEN": "HEMOGLOBIN A1C/HEMOGLOBIN.TOTA",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 190,
+                "NAMECN": "低密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 100,
+                "FVAL": 102,
+                "HIGH": 160,
+                "FTYPE": "LAB",
+                "LOW": 130,
+                "NAMEEN": "LDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 125,
+                "NAMECN": "极低密度脂蛋白胆固醇",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 29,
+                "HIGH": 40,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "CHOLESTEROL.IN VLDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 3.9,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "ALBUMIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27.9,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "ALBUMIN/CREATININE",
+                "UNIT": "mg/g creatinine"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白/球蛋白",
+                "GENDER": "A",
+                "DD": "2005-04-15",
+                "FVAL": 1.6,
+                "HIGH": 2.2,
+                "FTYPE": "LAB",
+                "LOW": 1.2,
+                "NAMEEN": "ALBUMIN/GLOBULIN"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "碱性磷酸酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 70,
+                "HIGH": 120,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "ALKALINE PHOSPHATASE",
+                "UNIT": "U/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "嗜碱性粒细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 0.1,
+                "HIGH": 0.3,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "BASOPHILS",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "嗜碱性粒细胞/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "HIGH": 3,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "BASOPHILS/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "NAMECN": "胆红素",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 0.2,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.3,
+                "NAMEEN": "BILIRUBIN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 80,
+                "NAMECN": "血尿素氮",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 9,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 7,
+                "NAMEEN": "BUN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "尿素氮/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 14,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 10,
+                "NAMEEN": "UREA NITROGEN/CREATININE"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 13,
+                "NAMECN": "钙",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 6,
+                "FVAL": 8.7,
+                "HIGH": 10.5,
+                "FTYPE": "LAB",
+                "LOW": 9,
+                "NAMEEN": "CALCIUM",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "二氧化碳",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 21,
+                "NAMEEN": "CARBON DIOXIDE",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "氯化物",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 102,
+                "HIGH": 106,
+                "FTYPE": "LAB",
+                "LOW": 98,
+                "NAMEEN": "CHLORIDE",
+                "UNIT": "mEq/lite"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "NAMECN": "胆固醇",
+                "GENDER": "A",
+                "DD": "2005-06-09",
+                "FVAL": 259,
+                "HIGH": 239,
+                "FTYPE": "LAB",
+                "LOW": 200,
+                "NAMEEN": "CHOL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 4,
+                "NAMECN": "肌酐",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 0.66,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.57,
+                "NAMEEN": "CREAT",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "嗜酸性粒细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 0.4,
+                "HIGH": 0.8,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "EOSINOPHILS",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "嗜酸性粒细胞/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 4,
+                "HIGH": 8,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "EOSINOPHILS/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "球蛋白",
+                "GENDER": "A",
+                "DD": "2005-04-15",
+                "FVAL": 2.5,
+                "HIGH": 3.5,
+                "FTYPE": "LAB",
+                "LOW": 2,
+                "NAMEEN": "GLOBULIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "NAMECN": "葡萄糖",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 150,
+                "HIGH": 99,
+                "FTYPE": "LAB",
+                "LOW": 65,
+                "NAMEEN": "GLUCOSE",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 60,
+                "NAMECN": "高密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 53,
+                "HIGH": 50,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "HDL",
+                "UNIT": "mg/dL"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 60,
+                "NAMECN": "血细胞比容",
+                "GENDER": "F",
+                "DD": "2005-08-05",
+                "CLOW": 18,
+                "FVAL": 38.6,
+                "HIGH": 46,
+                "FTYPE": "LAB",
+                "LOW": 36,
+                "NAMEEN": "HEMATOCRIT",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 20,
+                "NAMECN": "血红蛋白",
+                "GENDER": "F",
+                "DD": "2005-08-05",
+                "CLOW": 6,
+                "FVAL": 13.4,
+                "HIGH": 16,
+                "FTYPE": "LAB",
+                "LOW": 12,
+                "NAMEEN": "HEMOGLOBIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 9,
+                "NAMECN": "血红蛋白/总血红蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 8.4,
+                "HIGH": 7,
+                "FTYPE": "LAB",
+                "LOW": 6.4,
+                "NAMEEN": "HEMOGLOBIN A1C/HEMOGLOBIN.TOTA",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 190,
+                "NAMECN": "低密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 100,
+                "FVAL": 102,
+                "HIGH": 160,
+                "FTYPE": "LAB",
+                "LOW": 130,
+                "NAMEEN": "LDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "淋巴细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 3.1,
+                "HIGH": 4.4,
+                "FTYPE": "LAB",
+                "LOW": 2.2,
+                "NAMEEN": "LYMPHOCYTES",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "淋巴细胞/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 32,
+                "HIGH": 44,
+                "FTYPE": "LAB",
+                "LOW": 22,
+                "NAMEEN": "LYMPHOCYTES/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "单核细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 0.8,
+                "HIGH": 1.1,
+                "FTYPE": "LAB",
+                "LOW": 0.4,
+                "NAMEEN": "MONOCYTES",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "单核/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 8,
+                "HIGH": 11,
+                "FTYPE": "LAB",
+                "LOW": 4,
+                "NAMEEN": "MONOCYTES/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "中性白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 5.3,
+                "HIGH": 7,
+                "FTYPE": "LAB",
+                "LOW": 4,
+                "NAMEEN": "NEUTROPHILS",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "中性白细胞/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 55,
+                "HIGH": 70,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "NEUTROPHILS/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 999,
+                "NAMECN": "血小板",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "CLOW": 40,
+                "FVAL": 309,
+                "HIGH": 500,
+                "FTYPE": "LAB",
+                "LOW": 125,
+                "NAMEEN": "PLATELETS",
+                "UNIT": "ng/10^9 platele"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 6.2,
+                "NAMECN": "钾",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 2.8,
+                "FVAL": 4.3,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "POTASSIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "蛋白质",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 6.3,
+                "HIGH": 8,
+                "FTYPE": "LAB",
+                "LOW": 5.5,
+                "NAMEEN": "PROTEIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "钠",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 139,
+                "HIGH": 145,
+                "FTYPE": "LAB",
+                "LOW": 136,
+                "NAMEEN": "SODIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 500,
+                "NAMECN": "甘油三酯",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 143,
+                "HIGH": 200,
+                "FTYPE": "LAB",
+                "LOW": 150,
+                "NAMEEN": "TRIG",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 125,
+                "NAMECN": "极低密度脂蛋白胆固醇",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 29,
+                "HIGH": 40,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "CHOLESTEROL.IN VLDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 3.9,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "ALBUMIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27.9,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "ALBUMIN/CREATININE",
+                "UNIT": "mg/g creatinine"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "碱性磷酸酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 70,
+                "HIGH": 120,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "ALKALINE PHOSPHATASE",
+                "UNIT": "U/liter"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "NAMECN": "胆红素",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 0.2,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.3,
+                "NAMEEN": "BILIRUBIN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 80,
+                "NAMECN": "血尿素氮",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 9,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 7,
+                "NAMEEN": "BUN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "尿素氮/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 14,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 10,
+                "NAMEEN": "UREA NITROGEN/CREATININE"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 13,
+                "NAMECN": "钙",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 6,
+                "FVAL": 8.7,
+                "HIGH": 10.5,
+                "FTYPE": "LAB",
+                "LOW": 9,
+                "NAMEEN": "CALCIUM",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "二氧化碳",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 21,
+                "NAMEEN": "CARBON DIOXIDE",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "氯化物",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 102,
+                "HIGH": 106,
+                "FTYPE": "LAB",
+                "LOW": 98,
+                "NAMEEN": "CHLORIDE",
+                "UNIT": "mEq/lite"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "NAMECN": "胆固醇",
+                "GENDER": "A",
+                "DD": "2005-06-09",
+                "FVAL": 259,
+                "HIGH": 239,
+                "FTYPE": "LAB",
+                "LOW": 200,
+                "NAMEEN": "CHOL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 4,
+                "NAMECN": "肌酐",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 0.66,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.57,
+                "NAMEEN": "CREAT",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "肌酸激酶",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 57,
+                "HIGH": 150,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "CREATINE KINASE",
+                "UNIT": "u/liter"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "NAMECN": "葡萄糖",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 150,
+                "HIGH": 99,
+                "FTYPE": "LAB",
+                "LOW": 65,
+                "NAMEEN": "GLUCOSE",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 60,
+                "NAMECN": "高密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 53,
+                "HIGH": 50,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "HDL",
+                "UNIT": "mg/dL"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 9,
+                "NAMECN": "血红蛋白/总血红蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 8.4,
+                "HIGH": 7,
+                "FTYPE": "LAB",
+                "LOW": 6.4,
+                "NAMEEN": "HEMOGLOBIN A1C/HEMOGLOBIN.TOTA",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 190,
+                "NAMECN": "低密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 100,
+                "FVAL": 102,
+                "HIGH": 160,
+                "FTYPE": "LAB",
+                "LOW": 130,
+                "NAMEEN": "LDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 6.2,
+                "NAMECN": "钾",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 2.8,
+                "FVAL": 4.3,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "POTASSIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "蛋白质",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 6.3,
+                "HIGH": 8,
+                "FTYPE": "LAB",
+                "LOW": 5.5,
+                "NAMEEN": "PROTEIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "钠",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 139,
+                "HIGH": 145,
+                "FTYPE": "LAB",
+                "LOW": 136,
+                "NAMEEN": "SODIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 500,
+                "NAMECN": "甘油三酯",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 143,
+                "HIGH": 200,
+                "FTYPE": "LAB",
+                "LOW": 150,
+                "NAMEEN": "TRIG",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 125,
+                "NAMECN": "极低密度脂蛋白胆固醇",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 29,
+                "HIGH": 40,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "CHOLESTEROL.IN VLDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "嗜碱性粒细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 0.1,
+                "HIGH": 0.3,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "BASOPHILS",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "嗜碱性粒细胞/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "HIGH": 3,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "BASOPHILS/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 80,
+                "NAMECN": "血尿素氮",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 9,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 7,
+                "NAMEEN": "BUN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "尿素氮/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 14,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 10,
+                "NAMEEN": "UREA NITROGEN/CREATININE"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 13,
+                "NAMECN": "钙",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 6,
+                "FVAL": 8.7,
+                "HIGH": 10.5,
+                "FTYPE": "LAB",
+                "LOW": 9,
+                "NAMEEN": "CALCIUM",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "二氧化碳",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 21,
+                "NAMEEN": "CARBON DIOXIDE",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "氯化物",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 102,
+                "HIGH": 106,
+                "FTYPE": "LAB",
+                "LOW": 98,
+                "NAMEEN": "CHLORIDE",
+                "UNIT": "mEq/lite"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 4,
+                "NAMECN": "肌酐",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 0.66,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.57,
+                "NAMEEN": "CREAT",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "嗜酸性粒细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 0.4,
+                "HIGH": 0.8,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "EOSINOPHILS",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "嗜酸性粒细胞/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 4,
+                "HIGH": 8,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "EOSINOPHILS/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "红细胞分布宽度",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 13.6,
+                "FTYPE": "LAB",
+                "NAMEEN": "ERYTHROCYTE DISTRIBUTION WIDTH"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "红细胞平均微粒激素",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 32.2,
+                "FTYPE": "LAB",
+                "NAMEEN": "ERYTHROCYTE MEAN CORPUSCULAR H"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "红细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 4.16,
+                "FTYPE": "LAB",
+                "NAMEEN": "ERYTHROCYTES"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "NAMECN": "葡萄糖",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 150,
+                "HIGH": 99,
+                "FTYPE": "LAB",
+                "LOW": 65,
+                "NAMEEN": "GLUCOSE",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 60,
+                "NAMECN": "血细胞比容",
+                "GENDER": "F",
+                "DD": "2005-08-05",
+                "CLOW": 18,
+                "FVAL": 38.6,
+                "HIGH": 46,
+                "FTYPE": "LAB",
+                "LOW": 36,
+                "NAMEEN": "HEMATOCRIT",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 20,
+                "NAMECN": "血红蛋白",
+                "GENDER": "F",
+                "DD": "2005-08-05",
+                "CLOW": 6,
+                "FVAL": 13.4,
+                "HIGH": 16,
+                "FTYPE": "LAB",
+                "LOW": 12,
+                "NAMEEN": "HEMOGLOBIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 9.6,
+                "FTYPE": "LAB",
+                "NAMEEN": "LEUKOCYTES"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "淋巴细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 3.1,
+                "HIGH": 4.4,
+                "FTYPE": "LAB",
+                "LOW": 2.2,
+                "NAMEEN": "LYMPHOCYTES",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "淋巴细胞/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 32,
+                "HIGH": 44,
+                "FTYPE": "LAB",
+                "LOW": 22,
+                "NAMEEN": "LYMPHOCYTES/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "平均红细胞体积",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 93,
+                "FTYPE": "LAB",
+                "NAMEEN": "MEAN CORPUSCULAR VOLUME"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "单核细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 0.8,
+                "HIGH": 1.1,
+                "FTYPE": "LAB",
+                "LOW": 0.4,
+                "NAMEEN": "MONOCYTES",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "单核/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 8,
+                "HIGH": 11,
+                "FTYPE": "LAB",
+                "LOW": 4,
+                "NAMEEN": "MONOCYTES/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "中性白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 5.3,
+                "HIGH": 7,
+                "FTYPE": "LAB",
+                "LOW": 4,
+                "NAMEEN": "NEUTROPHILS",
+                "UNIT": "count"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "中性白细胞/ 100白细胞",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "FVAL": 55,
+                "HIGH": 70,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "NEUTROPHILS/100 LEUKOCYTES",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 999,
+                "NAMECN": "血小板",
+                "GENDER": "A",
+                "DD": "2005-08-05",
+                "CLOW": 40,
+                "FVAL": 309,
+                "HIGH": 500,
+                "FTYPE": "LAB",
+                "LOW": 125,
+                "NAMEEN": "PLATELETS",
+                "UNIT": "ng/10^9 platele"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 6.2,
+                "NAMECN": "钾",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 2.8,
+                "FVAL": 4.3,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "POTASSIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "钠",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 139,
+                "HIGH": 145,
+                "FTYPE": "LAB",
+                "LOW": 136,
+                "NAMEEN": "SODIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 3.9,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "ALBUMIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27.9,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "ALBUMIN/CREATININE",
+                "UNIT": "mg/g creatinine"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "碱性磷酸酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 70,
+                "HIGH": 120,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "ALKALINE PHOSPHATASE",
+                "UNIT": "U/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "谷丙转氨酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 14,
+                "HIGH": 35,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "ALT",
+                "UNIT": "U/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "天冬氨酸转氨酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 19,
+                "HIGH": 35,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "AST"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "NAMECN": "胆红素",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 0.2,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.3,
+                "NAMEEN": "BILIRUBIN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "葡萄糖醛化胆红素",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 0.07,
+                "FTYPE": "LAB",
+                "NAMEEN": "BILIRUBIN.GLUCURONIDATED"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 80,
+                "NAMECN": "血尿素氮",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 9,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 7,
+                "NAMEEN": "BUN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "尿素氮/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 14,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 10,
+                "NAMEEN": "UREA NITROGEN/CREATININE"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 13,
+                "NAMECN": "钙",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 6,
+                "FVAL": 8.7,
+                "HIGH": 10.5,
+                "FTYPE": "LAB",
+                "LOW": 9,
+                "NAMEEN": "CALCIUM",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "二氧化碳",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 21,
+                "NAMEEN": "CARBON DIOXIDE",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "氯化物",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 102,
+                "HIGH": 106,
+                "FTYPE": "LAB",
+                "LOW": 98,
+                "NAMEEN": "CHLORIDE",
+                "UNIT": "mEq/lite"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 4,
+                "NAMECN": "肌酐",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 0.66,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.57,
+                "NAMEEN": "CREAT",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "肌酸激酶",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 57,
+                "HIGH": 150,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "CREATINE KINASE",
+                "UNIT": "u/liter"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "NAMECN": "葡萄糖",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 150,
+                "HIGH": 99,
+                "FTYPE": "LAB",
+                "LOW": 65,
+                "NAMEEN": "GLUCOSE",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "葡萄糖均值",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 194,
+                "FTYPE": "LAB",
+                "NAMEEN": "GLUCOSE MEAN VALUE"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 60,
+                "NAMECN": "高密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 53,
+                "HIGH": 50,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "HDL",
+                "UNIT": "mg/dL"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 9,
+                "NAMECN": "血红蛋白/总血红蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 8.4,
+                "HIGH": 7,
+                "FTYPE": "LAB",
+                "LOW": 6.4,
+                "NAMEEN": "HEMOGLOBIN A1C/HEMOGLOBIN.TOTA",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 190,
+                "NAMECN": "低密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 100,
+                "FVAL": 102,
+                "HIGH": 160,
+                "FTYPE": "LAB",
+                "LOW": 130,
+                "NAMEEN": "LDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 6.2,
+                "NAMECN": "钾",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 2.8,
+                "FVAL": 4.3,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "POTASSIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "蛋白质",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 6.3,
+                "HIGH": 8,
+                "FTYPE": "LAB",
+                "LOW": 5.5,
+                "NAMEEN": "PROTEIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "钠",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 139,
+                "HIGH": 145,
+                "FTYPE": "LAB",
+                "LOW": 136,
+                "NAMEEN": "SODIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 500,
+                "NAMECN": "甘油三酯",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 143,
+                "HIGH": 200,
+                "FTYPE": "LAB",
+                "LOW": 150,
+                "NAMEEN": "TRIG",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 125,
+                "NAMECN": "极低密度脂蛋白胆固醇",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 29,
+                "HIGH": 40,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "CHOLESTEROL.IN VLDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 3.9,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "ALBUMIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27.9,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "ALBUMIN/CREATININE",
+                "UNIT": "mg/g creatinine"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "碱性磷酸酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 70,
+                "HIGH": 120,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "ALKALINE PHOSPHATASE",
+                "UNIT": "U/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "谷丙转氨酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 14,
+                "HIGH": 35,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "ALT",
+                "UNIT": "U/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "天冬氨酸转氨酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 19,
+                "HIGH": 35,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "AST"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "NAMECN": "胆红素",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 0.2,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.3,
+                "NAMEEN": "BILIRUBIN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "葡萄糖醛化胆红素",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 0.07,
+                "FTYPE": "LAB",
+                "NAMEEN": "BILIRUBIN.GLUCURONIDATED"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 80,
+                "NAMECN": "血尿素氮",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 9,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 7,
+                "NAMEEN": "BUN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "尿素氮/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 14,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 10,
+                "NAMEEN": "UREA NITROGEN/CREATININE"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 13,
+                "NAMECN": "钙",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 6,
+                "FVAL": 8.7,
+                "HIGH": 10.5,
+                "FTYPE": "LAB",
+                "LOW": 9,
+                "NAMEEN": "CALCIUM",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "二氧化碳",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 21,
+                "NAMEEN": "CARBON DIOXIDE",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "氯化物",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 102,
+                "HIGH": 106,
+                "FTYPE": "LAB",
+                "LOW": 98,
+                "NAMEEN": "CHLORIDE",
+                "UNIT": "mEq/lite"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 4,
+                "NAMECN": "肌酐",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 0.66,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.57,
+                "NAMEEN": "CREAT",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "肌酸激酶",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 57,
+                "HIGH": 150,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "CREATINE KINASE",
+                "UNIT": "u/liter"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "NAMECN": "葡萄糖",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 150,
+                "HIGH": 99,
+                "FTYPE": "LAB",
+                "LOW": 65,
+                "NAMEEN": "GLUCOSE",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "葡萄糖均值",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 194,
+                "FTYPE": "LAB",
+                "NAMEEN": "GLUCOSE MEAN VALUE"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 60,
+                "NAMECN": "高密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 53,
+                "HIGH": 50,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "HDL",
+                "UNIT": "mg/dL"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 9,
+                "NAMECN": "血红蛋白/总血红蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 8.4,
+                "HIGH": 7,
+                "FTYPE": "LAB",
+                "LOW": 6.4,
+                "NAMEEN": "HEMOGLOBIN A1C/HEMOGLOBIN.TOTA",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 190,
+                "NAMECN": "低密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 100,
+                "FVAL": 102,
+                "HIGH": 160,
+                "FTYPE": "LAB",
+                "LOW": 130,
+                "NAMEEN": "LDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 6.2,
+                "NAMECN": "钾",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 2.8,
+                "FVAL": 4.3,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "POTASSIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "蛋白质",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 6.3,
+                "HIGH": 8,
+                "FTYPE": "LAB",
+                "LOW": 5.5,
+                "NAMEEN": "PROTEIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "钠",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 139,
+                "HIGH": 145,
+                "FTYPE": "LAB",
+                "LOW": 136,
+                "NAMEEN": "SODIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 500,
+                "NAMECN": "甘油三酯",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 143,
+                "HIGH": 200,
+                "FTYPE": "LAB",
+                "LOW": 150,
+                "NAMEEN": "TRIG",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 125,
+                "NAMECN": "极低密度脂蛋白胆固醇",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 29,
+                "HIGH": 40,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "CHOLESTEROL.IN VLDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 3.9,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "ALBUMIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "白蛋白/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27.9,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "ALBUMIN/CREATININE",
+                "UNIT": "mg/g creatinine"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "碱性磷酸酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 70,
+                "HIGH": 120,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "ALKALINE PHOSPHATASE",
+                "UNIT": "U/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "谷丙转氨酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 14,
+                "HIGH": 35,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "ALT",
+                "UNIT": "U/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "天冬氨酸转氨酶",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 19,
+                "HIGH": 35,
+                "FTYPE": "LAB",
+                "LOW": 0,
+                "NAMEEN": "AST"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "NAMECN": "胆红素",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 0.2,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.3,
+                "NAMEEN": "BILIRUBIN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "葡萄糖醛化胆红素",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 0.07,
+                "FTYPE": "LAB",
+                "NAMEEN": "BILIRUBIN.GLUCURONIDATED"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 80,
+                "NAMECN": "血尿素氮",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 9,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 7,
+                "NAMEEN": "BUN",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "尿素氮/肌酐",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 14,
+                "HIGH": 20,
+                "FTYPE": "LAB",
+                "LOW": 10,
+                "NAMEEN": "UREA NITROGEN/CREATININE"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 13,
+                "NAMECN": "钙",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 6,
+                "FVAL": 8.7,
+                "HIGH": 10.5,
+                "FTYPE": "LAB",
+                "LOW": 9,
+                "NAMEEN": "CALCIUM",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "二氧化碳",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 27,
+                "HIGH": 30,
+                "FTYPE": "LAB",
+                "LOW": 21,
+                "NAMEEN": "CARBON DIOXIDE",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "氯化物",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 102,
+                "HIGH": 106,
+                "FTYPE": "LAB",
+                "LOW": 98,
+                "NAMEEN": "CHLORIDE",
+                "UNIT": "mEq/lite"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 4,
+                "NAMECN": "肌酐",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 0.66,
+                "HIGH": 1,
+                "FTYPE": "LAB",
+                "LOW": 0.57,
+                "NAMEEN": "CREAT",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "肌酸激酶",
+                "GENDER": "F",
+                "DD": "2006-02-11",
+                "FVAL": 57,
+                "HIGH": 150,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "CREATINE KINASE",
+                "UNIT": "u/liter"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "NAMECN": "葡萄糖",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 150,
+                "HIGH": 99,
+                "FTYPE": "LAB",
+                "LOW": 65,
+                "NAMEEN": "GLUCOSE",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "葡萄糖均值",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 194,
+                "FTYPE": "LAB",
+                "NAMEEN": "GLUCOSE MEAN VALUE"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 60,
+                "NAMECN": "高密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 53,
+                "HIGH": 50,
+                "FTYPE": "LAB",
+                "LOW": 40,
+                "NAMEEN": "HDL",
+                "UNIT": "mg/dL"
+            },
+            {
+                "LAB_NORMAL": "1",
+                "CHIGH": 9,
+                "NAMECN": "血红蛋白/总血红蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 8.4,
+                "HIGH": 7,
+                "FTYPE": "LAB",
+                "LOW": 6.4,
+                "NAMEEN": "HEMOGLOBIN A1C/HEMOGLOBIN.TOTA",
+                "UNIT": "%"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 190,
+                "NAMECN": "低密度脂蛋白",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 100,
+                "FVAL": 102,
+                "HIGH": 160,
+                "FTYPE": "LAB",
+                "LOW": 130,
+                "NAMEEN": "LDL",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "CHIGH": 6.2,
+                "NAMECN": "钾",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "CLOW": 2.8,
+                "FVAL": 4.3,
+                "HIGH": 5.5,
+                "FTYPE": "LAB",
+                "LOW": 3.5,
+                "NAMEEN": "POTASSIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "蛋白质",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 6.3,
+                "HIGH": 8,
+                "FTYPE": "LAB",
+                "LOW": 5.5,
+                "NAMEEN": "PROTEIN",
+                "UNIT": "g/dl"
+            },
+            {
+                "LAB_NORMAL": "0",
+                "NAMECN": "钠",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 139,
+                "HIGH": 145,
+                "FTYPE": "LAB",
+                "LOW": 136,
+                "NAMEEN": "SODIUM",
+                "UNIT": "mEq/liter"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 500,
+                "NAMECN": "甘油三酯",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 143,
+                "HIGH": 200,
+                "FTYPE": "LAB",
+                "LOW": 150,
+                "NAMEEN": "TRIG",
+                "UNIT": "mg/dl"
+            },
+            {
+                "LAB_NORMAL": "-1",
+                "CHIGH": 125,
+                "NAMECN": "极低密度脂蛋白胆固醇",
+                "GENDER": "A",
+                "DD": "2006-02-11",
+                "FVAL": 29,
+                "HIGH": 40,
+                "FTYPE": "LAB",
+                "LOW": 30,
+                "NAMEEN": "CHOLESTEROL.IN VLDL",
+                "UNIT": "mg/dl"
+            }
+        ]
+    },
+    "DIAGNOSIS": {
+        "Count": 72,
+        "Records": [
+            {
+                "NAMECN": "未指定的收购甲状腺功能减退症",
+                "DD": "2005-06-09",
+                "ICD": "244.9",
+                "HIERARCHY": "Metabolic Disorders",
+                "HCC": "HCC022",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Acquired Hypothyroidism",
+                "FVAL": 1,
+                "HCC_DES": "Other Significant Endocrine and Metabolic Disorders"
+            },
+            {
+                "NAMECN": "未指定的收购甲状腺功能减退症",
+                "DD": "2005-06-09",
+                "ICD": "244.9",
+                "HIERARCHY": "Metabolic Disorders",
+                "HCC": "HCC022",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Acquired Hypothyroidism",
+                "FVAL": 1,
+                "HCC_DES": "Other Significant Endocrine and Metabolic Disorders"
+            },
+            {
+                "NAMECN": "未指定的收购甲状腺功能减退症",
+                "DD": "2005-06-09",
+                "ICD": "244.9",
+                "HIERARCHY": "Metabolic Disorders",
+                "HCC": "HCC022",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Acquired Hypothyroidism",
+                "FVAL": 1,
+                "HCC_DES": "Other Significant Endocrine and Metabolic Disorders"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "糖尿病与其他特定表现，II型或未指定类型，而不是表述为失控",
+                "DD": "2005-08-05",
+                "ICD": "250.80",
+                "HIERARCHY": "Diabetes",
+                "HCC": "HCC019",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diabetes With Other Specified Manifestations, Type Ii Or Unspecified Type, Not Stated As Uncontrolled",
+                "FVAL": 1,
+                "HCC_DES": "Diabetes with No or Unspecified Complications"
+            },
+            {
+                "NAMECN": "高胆固醇血症纯",
+                "DD": "2005-08-05",
+                "ICD": "272.0",
+                "HIERARCHY": "Metabolic Disorders",
+                "HCC": "HCC024",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Pure Hypercholesterolemia",
+                "FVAL": 1,
+                "HCC_DES": "Other Endocrine/Metabolic/Nutritional Disorders"
+            },
+            {
+                "NAMECN": "高胆固醇血症纯",
+                "DD": "2005-08-05",
+                "ICD": "272.0",
+                "HIERARCHY": "Metabolic Disorders",
+                "HCC": "HCC024",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Pure Hypercholesterolemia",
+                "FVAL": 1,
+                "HCC_DES": "Other Endocrine/Metabolic/Nutritional Disorders"
+            },
+            {
+                "NAMECN": "焦虑状态，未指定",
+                "DD": "2005-08-05",
+                "ICD": "300.00",
+                "HIERARCHY": "Psychiatric Disorders",
+                "HCC": "HCC059",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Anxiety State, Unspecified",
+                "FVAL": 1,
+                "HCC_DES": "Anxiety Disorders"
+            },
+            {
+                "NAMECN": "未指定的原发性高血压",
+                "DD": "2005-08-05",
+                "ICD": "401.9",
+                "HIERARCHY": "Cardiac Disorders",
+                "HCC": "HCC091",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Essential Hypertension",
+                "FVAL": 1,
+                "HCC_DES": "Hypertension"
+            },
+            {
+                "NAMECN": "未指定的原发性高血压",
+                "DD": "2005-08-05",
+                "ICD": "401.9",
+                "HIERARCHY": "Cardiac Disorders",
+                "HCC": "HCC091",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Essential Hypertension",
+                "FVAL": 1,
+                "HCC_DES": "Hypertension"
+            },
+            {
+                "NAMECN": "未指定的原发性高血压",
+                "DD": "2005-08-05",
+                "ICD": "401.9",
+                "HIERARCHY": "Cardiac Disorders",
+                "HCC": "HCC091",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Essential Hypertension",
+                "FVAL": 1,
+                "HCC_DES": "Hypertension"
+            },
+            {
+                "NAMECN": "未指定的原发性高血压",
+                "DD": "2005-08-05",
+                "ICD": "401.9",
+                "HIERARCHY": "Cardiac Disorders",
+                "HCC": "HCC091",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Essential Hypertension",
+                "FVAL": 1,
+                "HCC_DES": "Hypertension"
+            },
+            {
+                "NAMECN": "未指定的原发性高血压",
+                "DD": "2005-08-05",
+                "ICD": "401.9",
+                "HIERARCHY": "Cardiac Disorders",
+                "HCC": "HCC091",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Essential Hypertension",
+                "FVAL": 1,
+                "HCC_DES": "Hypertension"
+            },
+            {
+                "NAMECN": "未指定的痔疮没有提及并发症",
+                "DD": "2003-10-11",
+                "ICD": "455.6",
+                "HIERARCHY": "Vascular Disease",
+                "HCC": "HCC105",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Hemorrhoids Without Mention Of Complication",
+                "FVAL": 1,
+                "HCC_DES": "Vascular Disease"
+            },
+            {
+                "NAMECN": "急性咽炎",
+                "DD": "2005-04-07",
+                "ICD": "462",
+                "HIERARCHY": "ENT Disorders",
+                "HCC": "HCC127",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pharyngitis",
+                "FVAL": 1,
+                "HCC_DES": "Other Ear, Nose, Throat, and Mouth Disorders"
+            },
+            {
+                "NAMECN": "急性上呼吸道感染的未指定的位置",
+                "DD": "2004-11-03",
+                "ICD": "465.9",
+                "HIERARCHY": "ENT Disorders",
+                "HCC": "HCC127",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Upper Respiratory Infections Of Unspecified Site",
+                "FVAL": 1,
+                "HCC_DES": "Other Ear, Nose, Throat, and Mouth Disorders"
+            },
+            {
+                "NAMECN": "急性支气管炎",
+                "DD": "2005-04-07",
+                "ICD": "466.0",
+                "HIERARCHY": "ENT Disorders",
+                "HCC": "HCC127",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Bronchitis",
+                "FVAL": 1,
+                "HCC_DES": "Other Ear, Nose, Throat, and Mouth Disorders"
+            },
+            {
+                "NAMECN": "食管反流",
+                "DD": "2003-10-04",
+                "ICD": "530.81",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC034",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Esophageal Reflux",
+                "FVAL": 1,
+                "HCC_DES": "Peptic Ulcer, Hemorrhage, Other Specified Gastrointestinal Disorders"
+            },
+            {
+                "NAMECN": "食管反流",
+                "DD": "2003-10-04",
+                "ICD": "530.81",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC034",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Esophageal Reflux",
+                "FVAL": 1,
+                "HCC_DES": "Peptic Ulcer, Hemorrhage, Other Specified Gastrointestinal Disorders"
+            },
+            {
+                "NAMECN": "憩室炎结肠（没有提及出血）",
+                "DD": "2005-08-05",
+                "ICD": "562.11",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC036",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Diverticulitis Of Colon (Without Mention Of Hemorrhage)",
+                "FVAL": 1,
+                "HCC_DES": "Other Gastrointestinal Disorders"
+            },
+            {
+                "NAMECN": "结石胆管没有提及胆囊炎，未提及阻塞",
+                "DD": "2004-01-02",
+                "ICD": "574.50",
+                "HIERARCHY": "Liver Disorders",
+                "HCC": "HCC030",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Calculus Of Bile Duct Without Mention Of Cholecystitis, Without Mention Of Obstruction",
+                "FVAL": 1,
+                "HCC_DES": "Gallbladder and Biliary Tract Disorders"
+            },
+            {
+                "NAMECN": "结石胆管没有提及胆囊炎，未提及阻塞",
+                "DD": "2004-01-02",
+                "ICD": "574.50",
+                "HIERARCHY": "Liver Disorders",
+                "HCC": "HCC030",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Calculus Of Bile Duct Without Mention Of Cholecystitis, Without Mention Of Obstruction",
+                "FVAL": 1,
+                "HCC_DES": "Gallbladder and Biliary Tract Disorders"
+            },
+            {
+                "NAMECN": "结石胆管没有提及胆囊炎，未提及阻塞",
+                "DD": "2004-01-02",
+                "ICD": "574.50",
+                "HIERARCHY": "Liver Disorders",
+                "HCC": "HCC030",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Calculus Of Bile Duct Without Mention Of Cholecystitis, Without Mention Of Obstruction",
+                "FVAL": 1,
+                "HCC_DES": "Gallbladder and Biliary Tract Disorders"
+            },
+            {
+                "NAMECN": "结石胆管没有提及胆囊炎，随着梗阻",
+                "DD": "2004-02-09",
+                "ICD": "574.51",
+                "HIERARCHY": "Liver Disorders",
+                "HCC": "HCC030",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Calculus Of Bile Duct Without Mention Of Cholecystitis, With Obstruction",
+                "FVAL": 1,
+                "HCC_DES": "Gallbladder and Biliary Tract Disorders"
+            },
+            {
+                "NAMECN": "结石胆管没有提及胆囊炎，随着梗阻",
+                "DD": "2004-02-09",
+                "ICD": "574.51",
+                "HIERARCHY": "Liver Disorders",
+                "HCC": "HCC030",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Calculus Of Bile Duct Without Mention Of Cholecystitis, With Obstruction",
+                "FVAL": 1,
+                "HCC_DES": "Gallbladder and Biliary Tract Disorders"
+            },
+            {
+                "NAMECN": "胆囊炎，未指定",
+                "DD": "2003-12-17",
+                "ICD": "575.10",
+                "HIERARCHY": "Liver Disorders",
+                "HCC": "HCC030",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Cholecystitis, Unspecified",
+                "FVAL": 1,
+                "HCC_DES": "Gallbladder and Biliary Tract Disorders"
+            },
+            {
+                "NAMECN": "胆囊炎，未指定",
+                "DD": "2003-12-17",
+                "ICD": "575.10",
+                "HIERARCHY": "Liver Disorders",
+                "HCC": "HCC030",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Cholecystitis, Unspecified",
+                "FVAL": 1,
+                "HCC_DES": "Gallbladder and Biliary Tract Disorders"
+            },
+            {
+                "NAMECN": "胆囊炎，未指定",
+                "DD": "2003-12-17",
+                "ICD": "575.10",
+                "HIERARCHY": "Liver Disorders",
+                "HCC": "HCC030",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Cholecystitis, Unspecified",
+                "FVAL": 1,
+                "HCC_DES": "Gallbladder and Biliary Tract Disorders"
+            },
+            {
+                "NAMECN": "未指定的障碍胆道",
+                "DD": "2003-11-24",
+                "ICD": "576.9",
+                "HIERARCHY": "Liver Disorders",
+                "HCC": "HCC030",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Unspecified Disorder Of Biliary Tract",
+                "FVAL": 1,
+                "HCC_DES": "Gallbladder and Biliary Tract Disorders"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "急性胰腺炎",
+                "DD": "2004-01-25",
+                "ICD": "577.0",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC032",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Acute Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Pancreatic Disease"
+            },
+            {
+                "NAMECN": "慢性胰腺炎",
+                "DD": "2004-02-09",
+                "ICD": "577.1",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC334",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Chronic Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Chronic Pancreatitis"
+            },
+            {
+                "NAMECN": "慢性胰腺炎",
+                "DD": "2004-02-09",
+                "ICD": "577.1",
+                "HIERARCHY": "Gastrointestinal Disorders",
+                "HCC": "HCC334",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Chronic Pancreatitis",
+                "FVAL": 1,
+                "HCC_DES": "Chronic Pancreatitis"
+            },
+            {
+                "NAMECN": "疼痛肢体",
+                "DD": "2003-11-22",
+                "ICD": "729.5",
+                "HIERARCHY": "Musculoskeletal Disorders",
+                "HCC": "HCC043",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Pain In Limb",
+                "FVAL": 1,
+                "HCC_DES": "Other Musculoskeletal and Connective Tissue Disorders"
+            },
+            {
+                "NAMECN": "疼痛肢体",
+                "DD": "2003-11-22",
+                "ICD": "729.5",
+                "HIERARCHY": "Musculoskeletal Disorders",
+                "HCC": "HCC043",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Pain In Limb",
+                "FVAL": 1,
+                "HCC_DES": "Other Musculoskeletal and Connective Tissue Disorders"
+            },
+            {
+                "NAMECN": "疼痛肢体",
+                "DD": "2003-11-22",
+                "ICD": "729.5",
+                "HIERARCHY": "Musculoskeletal Disorders",
+                "HCC": "HCC043",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Pain In Limb",
+                "FVAL": 1,
+                "HCC_DES": "Other Musculoskeletal and Connective Tissue Disorders"
+            },
+            {
+                "NAMECN": "疼痛肢体",
+                "DD": "2003-11-22",
+                "ICD": "729.5",
+                "HIERARCHY": "Musculoskeletal Disorders",
+                "HCC": "HCC043",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Pain In Limb",
+                "FVAL": 1,
+                "HCC_DES": "Other Musculoskeletal and Connective Tissue Disorders"
+            },
+            {
+                "NAMECN": "疼痛肢体",
+                "DD": "2003-11-22",
+                "ICD": "729.5",
+                "HIERARCHY": "Musculoskeletal Disorders",
+                "HCC": "HCC043",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Pain In Limb",
+                "FVAL": 1,
+                "HCC_DES": "Other Musculoskeletal and Connective Tissue Disorders"
+            },
+            {
+                "NAMECN": "疼痛肢体",
+                "DD": "2003-11-22",
+                "ICD": "729.5",
+                "HIERARCHY": "Musculoskeletal Disorders",
+                "HCC": "HCC043",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Pain In Limb",
+                "FVAL": 1,
+                "HCC_DES": "Other Musculoskeletal and Connective Tissue Disorders"
+            },
+            {
+                "NAMECN": "腹痛，上腹",
+                "DD": "2004-02-15",
+                "ICD": "789.06",
+                "HIERARCHY": "Symptom Disorders",
+                "HCC": "HCC166",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Abdominal Pain, Epigastric",
+                "FVAL": 1,
+                "HCC_DES": "Major Symptoms, Abnormalities"
+            },
+            {
+                "NAMECN": "腹痛，上腹",
+                "DD": "2004-02-15",
+                "ICD": "789.06",
+                "HIERARCHY": "Symptom Disorders",
+                "HCC": "HCC166",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Abdominal Pain, Epigastric",
+                "FVAL": 1,
+                "HCC_DES": "Major Symptoms, Abnormalities"
+            },
+            {
+                "NAMECN": "腹痛，其他指定位置",
+                "DD": "2003-12-18",
+                "ICD": "789.09",
+                "HIERARCHY": "Symptom Disorders",
+                "HCC": "HCC166",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Abdominal Pain, Other Specified Site",
+                "FVAL": 1,
+                "HCC_DES": "Major Symptoms, Abnormalities"
+            },
+            {
+                "NAMECN": "实验室检查，未指定",
+                "DD": "2005-08-05",
+                "ICD": "V72.60",
+                "HIERARCHY": "Screening",
+                "HCC": "HCC183",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Laboratory Examination, Unspecified",
+                "FVAL": 1,
+                "HCC_DES": "Screening/Observation/Special Exams"
+            },
+            {
+                "NAMECN": "其他乳房X光检查",
+                "DD": "2005-07-21",
+                "ICD": "V76.12",
+                "HIERARCHY": "Screening",
+                "HCC": "HCC183",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Other Screening Mammogram",
+                "FVAL": 1,
+                "HCC_DES": "Screening/Observation/Special Exams"
+            },
+            {
+                "NAMECN": "其他乳房X光检查",
+                "DD": "2005-07-21",
+                "ICD": "V76.12",
+                "HIERARCHY": "Screening",
+                "HCC": "HCC183",
+                "FTYPE": "DIAGNOSIS",
+                "NAMEEN": "Other Screening Mammogram",
+                "FVAL": 1,
+                "HCC_DES": "Screening/Observation/Special Exams"
+            }
+        ]
+    },
+    "PROCEDURE": {
+        "Count": 125,
+        "Records": [
+            {
+                "CPTCODE": "00740",
+                "NAMECN": "Anesth，上消化道可视化",
+                "DD": "2003-11-24",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Anesth, upper gi visualize"
+            },
+            {
+                "CPTCODE": "36415",
+                "NAMECN": "常规静脉穿刺",
+                "DD": "2003-11-08",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Routine venipuncture"
+            },
+            {
+                "CPTCODE": "36415",
+                "NAMECN": "常规静脉穿刺",
+                "DD": "2003-11-08",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Routine venipuncture"
+            },
+            {
+                "CPTCODE": "36415",
+                "NAMECN": "常规静脉穿刺",
+                "DD": "2003-11-08",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Routine venipuncture"
+            },
+            {
+                "CPTCODE": "43259",
+                "NAMECN": "内镜超声检查",
+                "DD": "2004-02-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "5.19",
+                "NAMEEN": "Endoscopic ultrasound exam"
+            },
+            {
+                "CPTCODE": "43259",
+                "NAMECN": "内镜超声检查",
+                "DD": "2004-02-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "5.19",
+                "NAMEEN": "Endoscopic ultrasound exam"
+            },
+            {
+                "CPTCODE": "43260",
+                "NAMECN": "远藤cholangiopancreatograph",
+                "DD": "2003-11-24",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "5.95",
+                "NAMEEN": "Endo cholangiopancreatograph"
+            },
+            {
+                "CPTCODE": "43262",
+                "NAMECN": "远藤cholangiopancreatograph",
+                "DD": "2004-02-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "7.38",
+                "NAMEEN": "Endo cholangiopancreatograph"
+            },
+            {
+                "CPTCODE": "43262",
+                "NAMECN": "远藤cholangiopancreatograph",
+                "DD": "2004-02-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "7.38",
+                "NAMEEN": "Endo cholangiopancreatograph"
+            },
+            {
+                "CPTCODE": "43264",
+                "NAMECN": "远藤cholangiopancreatograph",
+                "DD": "2004-02-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "8.89",
+                "NAMEEN": "Endo cholangiopancreatograph"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "80048",
+                "NAMECN": "代谢面板总CA",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Metabolic panel total ca"
+            },
+            {
+                "CPTCODE": "80061",
+                "NAMECN": "脂质面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Lipid panel"
+            },
+            {
+                "CPTCODE": "80076",
+                "NAMECN": "肝功能面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Hepatic function panel"
+            },
+            {
+                "CPTCODE": "82043",
+                "NAMECN": "微量白蛋白定量",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Microalbumin, quantitative"
+            },
+            {
+                "CPTCODE": "82550",
+                "NAMECN": "CK的测定（CPK）",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of ck (cpk)"
+            },
+            {
+                "CPTCODE": "82570",
+                "NAMECN": "尿肌酐的测定",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of urine creatinine"
+            },
+            {
+                "CPTCODE": "83036",
+                "NAMECN": "糖化血红蛋白测试",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Glycosylated hemoglobin test"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "77057",
+                "NAMECN": "乳房X光摄影，筛选",
+                "DD": "2003-06-14",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.7",
+                "NAMEEN": "Mammogram, screening"
+            },
+            {
+                "CPTCODE": "99284",
+                "NAMECN": "急诊科访问",
+                "DD": "2003-09-14",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "2.56",
+                "NAMEEN": "Emergency dept visit"
+            },
+            {
+                "CPTCODE": "99285",
+                "NAMECN": "急诊科访问",
+                "DD": "2003-12-18",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "3.8",
+                "NAMEEN": "Emergency dept visit"
+            },
+            {
+                "CPTCODE": "99233",
+                "NAMECN": "随后医院护理",
+                "DD": "2003-09-20",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "2.0",
+                "NAMEEN": "Subsequent hospital care"
+            },
+            {
+                "CPTCODE": "99231",
+                "NAMECN": "随后医院护理",
+                "DD": "2003-09-20",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.76",
+                "NAMEEN": "Subsequent hospital care"
+            },
+            {
+                "CPTCODE": "99233",
+                "NAMECN": "随后医院护理",
+                "DD": "2003-09-20",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "2.0",
+                "NAMEEN": "Subsequent hospital care"
+            },
+            {
+                "CPTCODE": "99231",
+                "NAMECN": "随后医院护理",
+                "DD": "2003-09-20",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.76",
+                "NAMEEN": "Subsequent hospital care"
+            },
+            {
+                "CPTCODE": "99233",
+                "NAMECN": "随后医院护理",
+                "DD": "2003-09-20",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "2.0",
+                "NAMEEN": "Subsequent hospital care"
+            },
+            {
+                "CPTCODE": "99231",
+                "NAMECN": "随后医院护理",
+                "DD": "2003-09-20",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.76",
+                "NAMEEN": "Subsequent hospital care"
+            },
+            {
+                "CPTCODE": "99233",
+                "NAMECN": "随后医院护理",
+                "DD": "2003-09-20",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "2.0",
+                "NAMEEN": "Subsequent hospital care"
+            },
+            {
+                "CPTCODE": "80048",
+                "NAMECN": "代谢面板总CA",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Metabolic panel total ca"
+            },
+            {
+                "CPTCODE": "80076",
+                "NAMECN": "肝功能面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Hepatic function panel"
+            },
+            {
+                "CPTCODE": "83690",
+                "NAMECN": "脂肪酶的测定",
+                "DD": "2004-01-01",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of lipase"
+            },
+            {
+                "CPTCODE": "85027",
+                "NAMECN": "完整的CBC，自动化",
+                "DD": "2004-01-01",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Complete cbc, automated"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "80048",
+                "NAMECN": "代谢面板总CA",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Metabolic panel total ca"
+            },
+            {
+                "CPTCODE": "80061",
+                "NAMECN": "脂质面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Lipid panel"
+            },
+            {
+                "CPTCODE": "80076",
+                "NAMECN": "肝功能面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Hepatic function panel"
+            },
+            {
+                "CPTCODE": "82043",
+                "NAMECN": "微量白蛋白定量",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Microalbumin, quantitative"
+            },
+            {
+                "CPTCODE": "82550",
+                "NAMECN": "CK的测定（CPK）",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of ck (cpk)"
+            },
+            {
+                "CPTCODE": "82570",
+                "NAMECN": "尿肌酐的测定",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of urine creatinine"
+            },
+            {
+                "CPTCODE": "83036",
+                "NAMECN": "糖化血红蛋白测试",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Glycosylated hemoglobin test"
+            },
+            {
+                "CPTCODE": "84443",
+                "NAMECN": "测定甲状腺激素STIM",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay thyroid stim hormone"
+            },
+            {
+                "CPTCODE": "99214",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "1.42",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "99221",
+                "NAMECN": "最初住院治疗",
+                "DD": "2003-10-02",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "1.88",
+                "NAMEEN": "Initial hospital care"
+            },
+            {
+                "CPTCODE": "99285",
+                "NAMECN": "急诊科访问",
+                "DD": "2003-12-18",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "3.8",
+                "NAMEEN": "Emergency dept visit"
+            },
+            {
+                "CPTCODE": "99232",
+                "NAMECN": "随后医院护理",
+                "DD": "2003-10-03",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "1.39",
+                "NAMEEN": "Subsequent hospital care"
+            },
+            {
+                "CPTCODE": "99238",
+                "NAMECN": "出院那天",
+                "DD": "2003-12-19",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "1.28",
+                "NAMEEN": "Hospital discharge day"
+            },
+            {
+                "CPTCODE": "80048",
+                "NAMECN": "代谢面板总CA",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Metabolic panel total ca"
+            },
+            {
+                "CPTCODE": "80076",
+                "NAMECN": "肝功能面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Hepatic function panel"
+            },
+            {
+                "CPTCODE": "83690",
+                "NAMECN": "脂肪酶的测定",
+                "DD": "2004-01-01",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of lipase"
+            },
+            {
+                "CPTCODE": "85025",
+                "NAMECN": "完整的CBC W /自动差异WBC",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Complete cbc w/auto diff wbc"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "81003",
+                "NAMECN": "尿液分析，自动，W / O范围",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Urinalysis, auto, w/o scope"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "97001",
+                "NAMECN": "铂评价",
+                "DD": "2003-10-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "1.2",
+                "NAMEEN": "Pt evaluation"
+            },
+            {
+                "CPTCODE": "97535",
+                "NAMECN": "自我保健mngment培训",
+                "DD": "2003-10-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.45",
+                "NAMEEN": "Self care mngment training"
+            },
+            {
+                "CPTCODE": "98960",
+                "NAMECN": "自MGMT EDUC＆火车，1角",
+                "DD": "2003-10-18",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Self-mgmt educ & train, 1 pt"
+            },
+            {
+                "CPTCODE": "97014",
+                "NAMECN": "电刺激疗法",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.18",
+                "NAMEEN": "Electric stimulation therapy"
+            },
+            {
+                "CPTCODE": "97110",
+                "NAMECN": "治疗演习",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.45",
+                "NAMEEN": "Therapeutic exercises"
+            },
+            {
+                "CPTCODE": "97124",
+                "NAMECN": "按摩疗法",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.35",
+                "NAMEEN": "Massage therapy"
+            },
+            {
+                "CPTCODE": "80053",
+                "NAMECN": "Comprehen代谢小组",
+                "DD": "2005-04-15",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Comprehen metabolic panel"
+            },
+            {
+                "CPTCODE": "82150",
+                "NAMECN": "淀粉酶的测定",
+                "DD": "2003-11-08",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of amylase"
+            },
+            {
+                "CPTCODE": "83690",
+                "NAMECN": "脂肪酶的测定",
+                "DD": "2004-01-01",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of lipase"
+            },
+            {
+                "CPTCODE": "85025",
+                "NAMECN": "完整的CBC W /自动差异WBC",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Complete cbc w/auto diff wbc"
+            },
+            {
+                "CPTCODE": "85610",
+                "NAMECN": "凝血酶原时间",
+                "DD": "2003-11-08",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Prothrombin time"
+            },
+            {
+                "CPTCODE": "85730",
+                "NAMECN": "凝血酶原时间，部分",
+                "DD": "2003-11-08",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Thromboplastin time, partial"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "97014",
+                "NAMECN": "电刺激疗法",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.18",
+                "NAMEEN": "Electric stimulation therapy"
+            },
+            {
+                "CPTCODE": "97110",
+                "NAMECN": "治疗演习",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.45",
+                "NAMEEN": "Therapeutic exercises"
+            },
+            {
+                "CPTCODE": "97124",
+                "NAMECN": "按摩疗法",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.35",
+                "NAMEEN": "Massage therapy"
+            },
+            {
+                "CPTCODE": "97014",
+                "NAMECN": "电刺激疗法",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.18",
+                "NAMEEN": "Electric stimulation therapy"
+            },
+            {
+                "CPTCODE": "97110",
+                "NAMECN": "治疗演习",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.45",
+                "NAMEEN": "Therapeutic exercises"
+            },
+            {
+                "CPTCODE": "97124",
+                "NAMECN": "按摩疗法",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.35",
+                "NAMEEN": "Massage therapy"
+            },
+            {
+                "CPTCODE": "97014",
+                "NAMECN": "电刺激疗法",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.18",
+                "NAMEEN": "Electric stimulation therapy"
+            },
+            {
+                "CPTCODE": "97110",
+                "NAMECN": "治疗演习",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.45",
+                "NAMEEN": "Therapeutic exercises"
+            },
+            {
+                "CPTCODE": "97124",
+                "NAMECN": "按摩疗法",
+                "DD": "2003-11-22",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.35",
+                "NAMEEN": "Massage therapy"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "80048",
+                "NAMECN": "代谢面板总CA",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Metabolic panel total ca"
+            },
+            {
+                "CPTCODE": "80076",
+                "NAMECN": "肝功能面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Hepatic function panel"
+            },
+            {
+                "CPTCODE": "85027",
+                "NAMECN": "完整的CBC，自动化",
+                "DD": "2004-01-01",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Complete cbc, automated"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "99285",
+                "NAMECN": "急诊科访问",
+                "DD": "2003-12-18",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "3.8",
+                "NAMEEN": "Emergency dept visit"
+            },
+            {
+                "CPTCODE": "99238",
+                "NAMECN": "出院那天",
+                "DD": "2003-12-19",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "1.28",
+                "NAMEEN": "Hospital discharge day"
+            },
+            {
+                "CPTCODE": "80048",
+                "NAMECN": "代谢面板总CA",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Metabolic panel total ca"
+            },
+            {
+                "CPTCODE": "80076",
+                "NAMECN": "肝功能面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Hepatic function panel"
+            },
+            {
+                "CPTCODE": "83690",
+                "NAMECN": "脂肪酶的测定",
+                "DD": "2004-01-01",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of lipase"
+            },
+            {
+                "CPTCODE": "85027",
+                "NAMECN": "完整的CBC，自动化",
+                "DD": "2004-01-01",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Complete cbc, automated"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "74330",
+                "NAMECN": "X射线胆/ PANC内镜",
+                "DD": "2004-01-02",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.9",
+                "NAMEEN": "X-ray bile/panc endoscopy"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "74328",
+                "NAMECN": "X射线胆管内镜",
+                "DD": "2004-02-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.7",
+                "NAMEEN": "X-ray bile duct endoscopy"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "J0696",
+                "NAMECN": "头孢曲松钠注射液",
+                "DD": "2004-11-03",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Ceftriaxone sodium injection"
+            },
+            {
+                "CPTCODE": "71020",
+                "NAMECN": "胸透检查",
+                "DD": "2005-04-07",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.22",
+                "NAMEEN": "Chest x-ray"
+            },
+            {
+                "CPTCODE": "82962",
+                "NAMECN": "葡萄糖验血",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Glucose blood test"
+            },
+            {
+                "CPTCODE": "87430",
+                "NAMECN": "链球菌一个股份公司，EIA",
+                "DD": "2005-04-07",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Strep a ag, eia"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "80050",
+                "NAMECN": "一般健康状况面板",
+                "DD": "2005-04-15",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "General health panel"
+            },
+            {
+                "CPTCODE": "80053",
+                "NAMECN": "Comprehen代谢小组",
+                "DD": "2005-04-15",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Comprehen metabolic panel"
+            },
+            {
+                "CPTCODE": "80061",
+                "NAMECN": "脂质面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Lipid panel"
+            },
+            {
+                "CPTCODE": "82043",
+                "NAMECN": "微量白蛋白定量",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Microalbumin, quantitative"
+            },
+            {
+                "CPTCODE": "82570",
+                "NAMECN": "尿肌酐的测定",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of urine creatinine"
+            },
+            {
+                "CPTCODE": "83036",
+                "NAMECN": "糖化血红蛋白测试",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Glycosylated hemoglobin test"
+            },
+            {
+                "CPTCODE": "84443",
+                "NAMECN": "测定甲状腺激素STIM",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay thyroid stim hormone"
+            },
+            {
+                "CPTCODE": "85025",
+                "NAMECN": "完整的CBC W /自动差异WBC",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Complete cbc w/auto diff wbc"
+            },
+            {
+                "CPTCODE": "99214",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "1.42",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "80048",
+                "NAMECN": "代谢面板总CA",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Metabolic panel total ca"
+            },
+            {
+                "CPTCODE": "80061",
+                "NAMECN": "脂质面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Lipid panel"
+            },
+            {
+                "CPTCODE": "80076",
+                "NAMECN": "肝功能面板",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Hepatic function panel"
+            },
+            {
+                "CPTCODE": "82043",
+                "NAMECN": "微量白蛋白定量",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Microalbumin, quantitative"
+            },
+            {
+                "CPTCODE": "82550",
+                "NAMECN": "CK的测定（CPK）",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of ck (cpk)"
+            },
+            {
+                "CPTCODE": "82570",
+                "NAMECN": "尿肌酐的测定",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay of urine creatinine"
+            },
+            {
+                "CPTCODE": "83036",
+                "NAMECN": "糖化血红蛋白测试",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Glycosylated hemoglobin test"
+            },
+            {
+                "CPTCODE": "84443",
+                "NAMECN": "测定甲状腺激素STIM",
+                "DD": "2005-06-09",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Assay thyroid stim hormone"
+            },
+            {
+                "CPTCODE": "99213",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-06-16",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.92",
+                "NAMEEN": "Office/outpatient visit, est"
+            },
+            {
+                "CPTCODE": "77052",
+                "NAMECN": "比较屏幕乳房X光检查插件",
+                "DD": "2005-07-21",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.06",
+                "NAMEEN": "Comp screen mammogram add-on"
+            },
+            {
+                "CPTCODE": "G0202",
+                "NAMECN": "Screeningmammographydigital",
+                "DD": "2005-07-21",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.7",
+                "NAMEEN": "Screeningmammographydigital"
+            },
+            {
+                "CPTCODE": "80048",
+                "NAMECN": "代谢面板总CA",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Metabolic panel total ca"
+            },
+            {
+                "CPTCODE": "81003",
+                "NAMECN": "尿液分析，自动，W / O范围",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Urinalysis, auto, w/o scope"
+            },
+            {
+                "CPTCODE": "82962",
+                "NAMECN": "葡萄糖验血",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Glucose blood test"
+            },
+            {
+                "CPTCODE": "85025",
+                "NAMECN": "完整的CBC W /自动差异WBC",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "0.0",
+                "NAMEEN": "Complete cbc w/auto diff wbc"
+            },
+            {
+                "CPTCODE": "99214",
+                "NAMECN": "办公室/门诊就诊，EST",
+                "DD": "2005-08-05",
+                "FVAL": 1,
+                "FTYPE": "PROCEDURE",
+                "RVU": "1.42",
+                "NAMEEN": "Office/outpatient visit, est"
+            }
+        ]
+    }
+}

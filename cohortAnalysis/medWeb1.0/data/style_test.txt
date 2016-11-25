@@ -1,0 +1,215 @@
+﻿core {
+	active-bg-color: #fff;
+	active-bg-opacity: 0.333;
+}
+
+edge {
+	curve-style: bezier;
+	haystack-radius: 0;
+	opacity: 0.666;
+	width: 2;
+	z-index: 999;
+	overlay-opacity: 0;
+	label:data(relation);
+	font-size:12;
+	font-style:oblique;
+	color:#3288bd;
+edge-text-rotation:autorotate;
+control-point-step-size: 60;
+}
+
+node {
+	width: 60px;
+    height: 36px;
+    content: data(name);
+
+        min-zoomed-font-size: 4;
+        font-size: 16;
+    	text-valign: center;
+    	text-halign: center;
+    	color: #111;
+	z-index:1;
+		border-width:4;
+		border-color:#bdbdbd;
+		border-style:double;
+		border-opacity:0.5;
+		background-blacken:0;
+}
+
+node.highlighted {
+        width: 48px;
+        height: 29px;
+        font-size:12;
+        min-zoomed-font-size: 4;
+        z-index: 500;
+        background-opacity: 0.5;
+        text-opacity: 1;
+}
+
+node.hoverd{
+        width: 56px;
+        height: 33px;
+        font-size:16;
+        z-index: 800;
+        opacity:1;
+}
+
+node.detail{
+	content:data(name);
+}
+
+
+node[NodeType = "Cheese"],
+node[NodeType = "CheeseType"] {
+	background-color: #FACD37;
+	text-outline-color: #FACD37;
+	width: mapData(Quality, 70, 100, 20, 50);
+	height: mapData(Quality, 70, 100, 20, 50);
+}
+
+node[NodeType = "WhiteWine"] {
+	background-color: white;
+	text-outline-color: white;
+}
+
+edge[relation = "DisDiagDiff"] {
+	line-color: #fcae91;
+	line-style:solid;
+}
+edge[relation = "DisComp"] {
+	line-color: #fd8d3c;
+	line-style:dashed;
+}
+edge[relationship = "相关药品"] {
+	line-color: #c2e699;
+	line-style:solid;
+}
+edge[relationship = "相似检查"] {
+	line-color: #7bccc4;
+	line-style:dashed;
+}
+
+edge[relationship = "相似药品"] {
+line-color: #7bccc4;
+line-style:dashed;
+}
+
+node[type = "disease"] {
+	shape:roundrectangle;
+	background-color: #EDC8DC;
+	text-outline-color: #ffffff;
+	opacity:0.95;
+text-outline-color: #e41a1c;
+}
+node[type = "medicine"] {
+	shape:roundrectangle;
+	background-color: #B9DCED;
+	text-outline-color: #ffffff;
+	opacity:0.95;
+text-outline-color:  #377eb8;
+}
+node[type = "lab"] {
+	shape:roundrectangle;
+	background-color: #ACE1AF;
+	text-outline-color: #ffffff;
+	opacity:0.95;
+text-outline-color:  #4daf4a;
+}
+node[type = "symptom"] {
+shape:roundrectangle;
+background-color: #FFDF78;
+text-outline-color: #ffffff;
+opacity:0.95;
+text-outline-color:  #fd8d3c;
+}
+node[type = "sclass"], node[type = "sbody"], node[type = "mclass"], node[type = "dclass"],node[type = "lclass"]{
+	shape:roundrectangle;
+	background-color: #cc99cc;
+	text-outline-color: #ffffff;
+	opacity:0.95;
+text-outline-color:  #663366;
+}
+node.added{
+
+}
+edge.added{
+
+}
+
+edge[interaction = "cr"] {
+	line-color: #DE3128;
+}
+
+node[NodeType = "Cider"] {
+	background-color: #A4EB34;
+	text-outline-color: #A4EB34;
+}
+
+
+
+
+edge.highlighted {
+	opacity: 1;
+	width: 1;
+}
+node.hoverd{
+
+}
+node.hoverd[type = "disease"]{
+	border-color:#de2d26;
+}
+node.hoverd[type = "medicine"]{
+    border-color:#377eb8;
+}
+node.hoverd[type = "lab"]{
+    border-color:#4daf4a;
+}
+node.hoverd[type = "symptom"]{
+    border-color:#fd8d3c;
+}
+node.hoverd[type = "sclass"]{
+    border-color:#663366;
+}
+
+node.hoverd[type = "sclass"], node.hoverd[type = "sbody"], node.hoverd[type = "mclass"], node.hoverd[type = "dclass"],node.hoverd[type = "lclass"]{
+	border-color: #990066;
+}
+
+edge.faded {
+	opacity: 0.1;
+}
+
+node.faded {
+	opacity: 0.2;
+}
+.hover-fade{
+    opacity: 0.2;
+}
+edge.hover-highlight{
+    font-size: 15;
+    width: 2;
+    opacity: 1;
+}
+.hover-highlight{
+    background-opacity: 0.5;
+}
+node:selected {
+    shape:ellipse;
+    width:50;
+    height:50;
+	border-color: rgb(187, 219, 247);
+	border-opacity: 0.5;
+	border-width: 10;
+}
+.superShow{
+		opacity:.1;
+}
+.filtered {
+	display: none;
+}
+
+.autorotate{
+	edge-text-rotation:autorotate;
+	color:#aaf;
+	text-opacity:1;
+}

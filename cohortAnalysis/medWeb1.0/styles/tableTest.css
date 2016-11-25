@@ -1,0 +1,34 @@
+
+
+table thead th {
+    cursor: default;
+}
+
+table thead th.sortable {
+    cursor: pointer;
+}
+
+.relative {
+    position: relative;
+}
+
+.relative .popover {
+    width: 10%;
+}
+
+.pagination-sm {
+    margin: 0;
+}
+.idlength{
+    width:20%;
+}
+.namelength{
+    width:50%;
+}
+.typelength{
+    width:30%;
+}
+.global-search {
+    margin-bottom: 5px;
+}
+

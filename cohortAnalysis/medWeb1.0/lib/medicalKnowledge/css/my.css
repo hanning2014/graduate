@@ -1,0 +1,190 @@
+/*tfoot {
+    display: table-header-group;
+}
+.positiontop{
+
+  display: table-header-group;
+
+}*/
+/*-------------Loading Spinner------------------------------------*/
+.myodd{
+    background-color: #f9f9f9;
+}
+.loading-spinner{
+    width: 60px;
+    height: 60px;
+    background-color: #2dc3e8;
+
+    margin: 200px auto;
+    -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+    animation: rotateplane 1.2s infinite ease-in-out;
+}
+@-webkit-keyframes rotateplane {
+    0% { -webkit-transform: perspective(120px) }
+    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes rotateplane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    } 50% {
+          transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+          -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+      } 100% {
+            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+            -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        }
+}
+/*---------------/Loading Spinner----------------*/
+.asc{
+
+      background-image: url("../../../assets/img/medicalKnowledge/sort_asc.png");
+      background-repeat: no-repeat;
+      padding-left: 10px;
+     /* background-position-x: 30%;*/
+      background-position-y: 50%;
+}
+
+.desc{
+
+    background-image: url("../../../assets/img/medicalKnowledge/sort_desc.png");
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+
+}
+
+#myModal .modal-body
+{
+
+  overflow:auto;
+  height:800px;
+}
+
+#example1_filter{
+
+  float:left;
+}
+
+#example1_paginate{
+  display: none;
+}
+
+
+.bs-docs-sidenav {
+    width: 20%;
+    margin: 30px 0 0;
+    padding: 0;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+    box-shadow: 0 1px 4px rgba(0,0,0,.065);
+    border: 2px solid #e5e5e5;
+}
+
+
+
+.bs-docs-sidenav > li > a {
+    display: block;
+
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+    border: 1px solid #e5e5e5;
+}
+
+.iconss{
+  float: right;
+}
+
+#example1_filter{
+
+   float: left;
+
+}
+
+.modal-body a{
+
+   color:#3c8dbc;
+}
+
+.modal-content a{
+   color:#3c8dbc;
+}
+
+.main-header  .logo{
+
+    font-size:25px;
+
+}
+
+
+.sidebar-menu .treeview-menu>li>a {
+    padding: 5px 5px 5px 15px;
+    display: block;
+    font-size: 20px;
+}
+
+
+
+/*#pagination{*/
+
+  /*color:*/
+/*}*/
+
+
+.btn-group-lg>.btn, .btn-lg{
+
+  font-size: 16px;
+  color:#000;
+
+}
+
+.news-info > .f1{
+  display:block;
+  text-align:center;
+
+}
+.news-date {
+   text-align:center;
+
+   margin-top: 5px;
+
+}
+
+.news-info p{
+
+   float: left;
+
+}
+
+.news-item{
+
+   list-style-type:none;
+}
+
+
+#example1 tfoot th{
+
+  padding-left: 10px;
+
+}
+
+#example1 input{
+
+  width:120px;
+}
+/*
+
+滚动整个modal
+
+#myModal .modal-content
+{
+  height:200px;
+  overflow:auto;
+}
+
+*/

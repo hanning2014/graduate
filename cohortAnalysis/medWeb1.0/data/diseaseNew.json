@@ -1,0 +1,45 @@
+{
+    "Return": 0,
+    "Results": {
+        "CKD": {
+            "risk_score": 0.1,
+            "is_diseased": 0
+        },
+        "CHD": {
+            "risk_score": 0.0,
+            "is_diseased": 0
+        },
+        "COPD": {
+            "risk_score": 0.16,
+            "is_diseased": 0
+        },
+        "Hyperlipidemia": {
+            "risk_score": 0.24,
+            "is_diseased": 0
+        },
+        "PulmonaryDisease": {
+            "risk_score": 0.31,
+            "is_diseased": 0
+        },
+        "Hypertension": {
+            "risk_score": 0.24,
+            "is_diseased": 0
+        },
+        "Asthma": {
+            "risk_score": 0.08,
+            "is_diseased": 0
+        },
+        "Obesity": {
+            "risk_score": 0.12,
+            "is_diseased": 0
+        },
+        "HeartFailure": {
+            "risk_score": 0.0,
+            "is_diseased": 0
+        },
+        "Diabetes": {
+            "risk_score": 0.16,
+            "is_diseased": 0
+        }
+    }
+}

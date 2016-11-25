@@ -1,0 +1,83 @@
+body {
+  /*background: #293950;*/
+}
+
+.d3-Bartip {
+  z-index: 99999;
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.d3-Bubbletip {
+  z-index: 99999;
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+#diseaseCauseContent{
+  /*width:100%;*/
+}
+#bubble{
+  /*position:relative;*/
+  /*top:100;*/
+  width:50%;
+  /*left:10px;*/
+  float:left;
+}
+
+#bar{
+  width:50%;
+  overflow: auto;
+  /*position:relative;*/
+  /*left:55%;*/
+  /*top:200px;*/
+  /*display:inline;*/
+}
+
+.xaxis
+{
+  font-family:Fantasy;
+  /*fill:white;*/
+}
+
+.xaxis path,
+.xaxis line
+{
+  fill:none;
+  stroke:black;
+  shape-rendering: crispEdges;
+  font-size:5px;
+}
+
+.yaxis{
+  display:none;
+}
+
+.featuretext
+{font-family:YouYuan;
+  /*fill:white;*/
+}
+
+
+
+section {
+  margin: 0 auto;
+}
+
+
+circle:hover{opacity:0.8;}
+
+.bar:hover{opacity:0.8;}
+
+.bubbletext
+{font-family:Fantasy;
+  fill:black;
+}

@@ -1,0 +1,75 @@
+
+
+.bar {
+    fill: steelblue;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.link{
+    stroke-opacity: 0.2;
+}
+.iui-treeview-item-content
+{
+    padding: 4px;
+}
+.iui-checkbox-box
+{
+    border: 0;
+    width: 16px;
+    height: 16px;
+}
+.iui-checkbox-checked
+{
+    background-image: url("assets/img/checkbox-checked.png");
+}
+.iui-checkbox-unchecked
+{
+    background-image: url("assets/img/checkbox-unchecked.png");
+}
+.iui-checkbox-indeterminate
+{
+    background-image: url("assets/img/checkbox-indeterminate.png");
+}
+/* .feature-content
+ {
+     width: 800px;
+ }*/
+.directive
+{
+    height: 600px;
+}
+.control-panel
+{
+    margin-left: 35px;
+    width: 250px;
+}
+.check-list
+{
+    background: white;
+    border: thin solid #cecece;
+    border-radius: 3px;
+    list-style-type: none;
+    margin: 5px 0 0 0;
+    overflow: auto;
+    padding: 0;
+    /*width: 350px;*/
+    height: 215px;
+}
+.check-list li
+{
+    padding-left: 15px;
+}
