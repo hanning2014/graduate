@@ -75,6 +75,7 @@
     "globals": { // allow for global variables that are specific to the test environment
         "angular": true, // Setting it to false will trigger JSHint to consider that variable read-only
         "window":false,
+        "d3":true,
         "$": false,
         "agGrid": false,
         "UISETTINGS": false,
