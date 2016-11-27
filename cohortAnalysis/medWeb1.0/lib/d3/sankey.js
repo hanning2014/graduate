@@ -4,36 +4,14 @@ d3.sankey = function() {
       nodePadding = 8,
       size = [1, 1],
       nodes = [],
-      filterValues = 1,
-      filterValues_max = 1000;
       links = [];
   var width = 600;
-
-  sankey.width = function(_){
-    if(!arguments.length) return width;
-    width = +_;
-    return sankey;
-  }
   sankey.nodeWidth = function(_) {
     if (!arguments.length) return nodeWidth;
     nodeWidth = +_;
     return sankey;
   };
-
-   sankey.filterValues = function(_){
-    if(!arguments.length) return filterValues;
-    filterValues = +_;
-    return sankey;
-   } 
-
-
-  sankey.filterValues_max = function(_){
-    if(!arguments.length) return filterValues_max;
-    filterValues_max = +_;
-    return sankey;
-   } 
-
-
+  
   sankey.nodePadding = function(_) {
     if (!arguments.length) return nodePadding;
     nodePadding = +_;
@@ -61,12 +39,9 @@ d3.sankey = function() {
   sankey.layout = function(iterations) {
     computeNodeLinks();
     computeNodeValues();
-    filterNodesByvalues(filterValues,filterValues_max);
-    filterLinksByvalues();
     computeNodeBreadths();
     computeNodeDepths(iterations);
     computeLinkDepths();
-   
     return sankey;
   };
 
@@ -128,33 +103,6 @@ d3.sankey = function() {
     });
   }
 
- function filterNodesByvalues(filterValues,filterValues_max){
-      //console.log(filterValues+",,,"+filterValues_max);
-    
-      nodes = nodes.filter(function(d){
-
-         return (d.value>=filterValues);
-      });
-
-      nodes = nodes.filter(function(d){
-
-         return (d.value<= filterValues_max);
-      });
-     // console.log(nodes);
-
- }
-
-function filterLinksByvalues(){
-
-   links.forEach(function(link) {
-      var source = link.source,
-          target = link.target;
-          //console.log(source);
-          if(source.value == 0 || target.value == 0) link.value = 0;  
-
-    });
-
-}
   // Iteratively assign the breadth (x-position) for each node.
   // Nodes are assigned the maximum breadth of incoming neighbors plus one;
   // nodes with no incoming links are assigned breadth zero, while

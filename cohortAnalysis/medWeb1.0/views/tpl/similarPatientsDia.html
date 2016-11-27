@@ -1,7 +1,168 @@
 ﻿<!--html for cohort analysis-->
+<style type="text/css">
+    .h200{
+        height: 200px;
+    }
+    .mb10{
+        padding-bottom: 10px;
+    }
+    .searchs{
+        height: 35px;
+    }
+    .searchinput{
+        height: 32px;
+    }
+</style>
 <div ng-controller="sankeyController">
      <div class="row col-xs-12 col-sm-12 col-md-12 col-md-12 col-lg-12">
         <div class = "row ">
+            <div class="col-lg-3 col-sm-3 col-xs-12">
+                <div class="widget">
+                    <div class="widget-header">
+                        <i class="widget-icon glyphicon glyphicon-cog"></i>
+                        <span class="widget-caption">设置</span>
+                    </div><!--Widget Header-->
+                    <div class="widget-body" style="display: block;">
+                        <div class="widget-main ">
+                            <div class="panel-group accordion" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading ">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                统计分析
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body border-red">
+                                           <div class = "col-lg-6 col-sm-6 col-xs-6">
+                                               所有事件数量
+                                           </div>
+                                           <div class = "col-lg-6 col-sm-6 col-xs-6 mb10">
+                                               100
+                                           </div>
+                                            <div class = "col-lg-6 col-sm-6 col-xs-6">
+                                               不同的事件数量
+                                           </div>
+                                           <div class = "col-lg-6 col-sm-6 col-xs-6 mb10">
+                                               100
+                                           </div>
+                                            <div class = "col-lg-6 col-sm-6 col-xs-6">
+                                               所有的序列数目
+                                           </div>
+                                           <div class = "col-lg-6 col-sm-6 col-xs-6 mb10">
+                                               100
+                                           </div>
+                                           <div class = "col-lg-6 col-sm-6 col-xs-6">
+                                               层次深度
+                                           </div>
+                                           <div class = "col-lg-6 col-sm-6 col-xs-6 mb10">
+                                               1
+                                           </div>
+                                            <div class = "col-lg-6 col-sm-6 col-xs-6">
+                                               不同的序列数目
+                                           </div>
+                                           <div class = "col-lg-6 col-sm-6 col-xs-6 mb10">
+                                               100
+                                           </div>
+                                            <div class = "col-lg-6 col-sm-6 col-xs-6">
+                                               选择的序列
+                                           </div>
+                                           <div class = "col-lg-6 col-sm-6 col-xs-6 mb10">
+                                               100
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                自定义序列
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body border-palegreen">
+                                        自定义序列
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                层次分析
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse">
+                                        <div class="panel-body border-magenta">
+                                            层次分析
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                                属性过滤
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFour" class="panel-collapse collapse">
+                                        <div class="panel-body border-magenta">
+                                            属性过滤
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                相关分析
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFive" class="panel-collapse collapse">
+                                        <div class="panel-body border-magenta">
+                                            相关分析
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-blue active pull-center">运行</button>
+                    </div><!--Widget Body-->
+                </div><!--Widget-->
+            </div>
+
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <div class="widget">
+                    <div class="widget-header">
+                        <i class="widget-icon fa fa-bar-chart-o"></i>
+                        <span class="widget-caption">群体分析</span>
+                    </div><!--Widget Header-->
+                    <div class="widget-body" style="display: block;">
+                        <div id = "sankeys">
+                        </div>
+                    </div><!--Widget Body-->
+                </div><!--Widget-->
+            </div>
+
+            <div class="col-lg-3 col-sm-3 col-xs-12">
+                <div class="widget">
+                    <div class="widget-header">
+                        <i class="widget-icon glyphicon glyphicon-stats"></i>
+                        <span class="widget-caption">结果分析</span>
+                    </div><!--Widget Header-->
+                    <div class="widget-body" style="display: block;">
+                        <p>
+                            Without any change in default mark-up.
+                        </p>
+                    </div><!--Widget Body-->
+                </div><!--Widget-->
+            </div>
         </div>
      </div>
 </div>

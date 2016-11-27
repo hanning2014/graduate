@@ -16,7 +16,7 @@ angular.module('app')
             function ($stateProvider, $urlRouterProvider) {
 
                 $urlRouterProvider
-                    .otherwise('/app/mkdisease');
+                    .otherwise('/app/similarPatientsDia');
                 $stateProvider
                     .state('app', {
                         abstract: true,
