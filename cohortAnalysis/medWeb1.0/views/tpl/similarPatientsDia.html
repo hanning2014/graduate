@@ -1,17 +1,15 @@
-﻿<!--html for cohort analysis-->
+<!--html for cohort analysis-->
 <style type="text/css">
     .h200{
         height: 200px;
     }
     .mb10{
-        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
     .searchs{
         height: 35px;
     }
-    .searchinput{
-        height: 32px;
-    }
+  
 </style>
 <div ng-controller="sankeyController">
      <div class="row col-xs-12 col-sm-12 col-md-12 col-md-12 col-lg-12">
@@ -54,13 +52,13 @@
                                                100
                                            </div>
                                            <div class = "col-lg-6 col-sm-6 col-xs-6">
-                                               层次深度
+                                               不同的序列数目
                                            </div>
                                            <div class = "col-lg-6 col-sm-6 col-xs-6 mb10">
                                                1
                                            </div>
                                             <div class = "col-lg-6 col-sm-6 col-xs-6">
-                                               不同的序列数目
+                                               层次深度
                                            </div>
                                            <div class = "col-lg-6 col-sm-6 col-xs-6 mb10">
                                                100
@@ -84,7 +82,9 @@
                                     </div>
                                     <div id="collapseTwo" class="panel-collapse collapse">
                                         <div class="panel-body border-palegreen">
-                                        自定义序列
+                                            搜索事件：
+                                            <input type = "text" class = "searchinput">
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +98,30 @@
                                     </div>
                                     <div id="collapseThree" class="panel-collapse collapse">
                                         <div class="panel-body border-magenta">
-                                            层次分析
+                                            <div class="mb10">
+                                                <span >
+                                                    目前所在层次：{{vm.level}}
+                                                </span>
+                                                
+                                            </div>
+                                            <div class="mb10">
+                                                <span >
+                                                    选择层次：
+                                                </span>
+                                            </div>
+                                            <div class ="col-lg-6 col-sm-6 col-xs-6">
+                                                <label>
+                                                    <input name="form-field-radio" type="radio" ng-checked="vm.level == 1" ng-click = "changeLevel(1)">
+                                                    <span class="text"> 1 </span>
+                                                </label>
+                                            </div>
+                                            <div class ="col-lg-6 col-sm-6 col-xs-6">
+                                                <label>
+                                                    <input name="form-field-radio" type="radio" class="inverted" ng-checked="vm.level == 2"
+                                                    ng-click = "changeLevel(2)">
+                                                    <span class="text"> 2 </span>
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +135,7 @@
                                     </div>
                                     <div id="collapseFour" class="panel-collapse collapse">
                                         <div class="panel-body border-magenta">
-                                            属性过滤
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -157,9 +180,67 @@
                         <span class="widget-caption">结果分析</span>
                     </div><!--Widget Header-->
                     <div class="widget-body" style="display: block;">
-                        <p>
-                            Without any change in default mark-up.
-                        </p>
+                        <div class = "mb10">
+                            <span >popular event：
+                            </span>
+                        </div>
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        #
+                                    </th>
+                                    <th>
+                                        Name
+                                    </th>
+                                    <th>
+                                        Support
+                                    </th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat = "(index,item) in vm.popularEvents">
+                                    <td ng-bind = "index+1">
+                                    </td>
+                                    <td ng-bind = "item.patterns">
+                                    </td>
+                                    <td ng-bind = "item.nums">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <hr class = "wide">
+                          <div class = "mb10">
+                            <span >popular sequence：
+                            </span>
+                        </div>
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        #
+                                    </th>
+                                    <th>
+                                        Name
+                                    </th>
+                                   
+                                    <th>
+                                        Support
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                               <tr ng-repeat = "(index,item) in vm.popularSequences" ng-if = "index <= 4">
+                                <td ng-bind = "index+1">
+                                </td>
+                                <td ng-bind = "item.patterns">
+                                </td>
+                                <td ng-bind = "item.nums">
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div><!--Widget Body-->
                 </div><!--Widget-->
             </div>

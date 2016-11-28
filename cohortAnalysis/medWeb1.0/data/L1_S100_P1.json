@@ -1,0 +1,821 @@
+[
+    {
+        "patterns": [
+            "DIAGNOSIS"
+        ], 
+        "nums": 179410
+    }, 
+    {
+        "patterns": [
+            "MEDICATION"
+        ], 
+        "nums": 145070
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 128902
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 117970
+    }, 
+    {
+        "patterns": [
+            "LAB"
+        ], 
+        "nums": 104662
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 85227
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION"
+        ], 
+        "nums": 72590
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 67209
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 64641
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 61337
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 53977
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 52048
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 49088
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 42735
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 38569
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 34238
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 30287
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 29635
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 29000
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 26316
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB", 
+            "MEDICATION"
+        ], 
+        "nums": 24971
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 24615
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 21989
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "LAB"
+        ], 
+        "nums": 20439
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 16782
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 15360
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "LAB"
+        ], 
+        "nums": 15309
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 14854
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "LAB"
+        ], 
+        "nums": 13501
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 12458
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 9803
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 9635
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 9457
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "LAB", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 6656
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "LAB"
+        ], 
+        "nums": 6471
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 6333
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 6299
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 6250
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 6217
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 6189
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "LAB", 
+            "MEDICATION"
+        ], 
+        "nums": 6109
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 6092
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 5707
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 5645
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "LAB", 
+            "MEDICATION"
+        ], 
+        "nums": 5551
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 5547
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 5346
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 4830
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "LAB", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 4791
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "LAB"
+        ], 
+        "nums": 4163
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 3777
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 3724
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 3704
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 3499
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "LAB", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 2967
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB", 
+            "LAB"
+        ], 
+        "nums": 2961
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "LAB", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 2824
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 2738
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 2625
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 2426
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 1722
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "LAB", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 1699
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 1613
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 1590
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "LAB", 
+            "MEDICATION"
+        ], 
+        "nums": 1575
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "LAB", 
+            "LAB"
+        ], 
+        "nums": 1536
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "LAB", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 1417
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "LAB", 
+            "MEDICATION"
+        ], 
+        "nums": 1280
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "LAB", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 1280
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "LAB", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 1237
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "DIAGNOSIS", 
+            "LAB", 
+            "LAB"
+        ], 
+        "nums": 1216
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 1074
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "LAB", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 1069
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "LAB"
+        ], 
+        "nums": 1039
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "LAB", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 1006
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 923
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "LAB", 
+            "MEDICATION"
+        ], 
+        "nums": 900
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 680
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "MEDICATION", 
+            "LAB"
+        ], 
+        "nums": 676
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "LAB", 
+            "LAB"
+        ], 
+        "nums": 585
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 576
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "LAB", 
+            "MEDICATION", 
+            "LAB"
+        ], 
+        "nums": 540
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "MEDICATION", 
+            "MEDICATION", 
+            "MEDICATION"
+        ], 
+        "nums": 494
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "MEDICATION", 
+            "LAB"
+        ], 
+        "nums": 465
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "LAB", 
+            "LAB"
+        ], 
+        "nums": 448
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 337
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "LAB", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 336
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "LAB", 
+            "LAB"
+        ], 
+        "nums": 304
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 288
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "MEDICATION"
+        ], 
+        "nums": 236
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 219
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "MEDICATION", 
+            "LAB"
+        ], 
+        "nums": 170
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "LAB", 
+            "DIAGNOSIS", 
+            "LAB"
+        ], 
+        "nums": 168
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "MEDICATION", 
+            "MEDICATION", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 136
+    }, 
+    {
+        "patterns": [
+            "DIAGNOSIS", 
+            "MEDICATION", 
+            "LAB", 
+            "LAB"
+        ], 
+        "nums": 112
+    }, 
+    {
+        "patterns": [
+            "MEDICATION", 
+            "DIAGNOSIS", 
+            "LAB", 
+            "MEDICATION"
+        ], 
+        "nums": 110
+    }, 
+    {
+        "patterns": [
+            "LAB", 
+            "MEDICATION", 
+            "LAB", 
+            "DIAGNOSIS"
+        ], 
+        "nums": 106
+    }
+]

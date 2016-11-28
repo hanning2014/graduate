@@ -3,6 +3,29 @@ angular.module('app')
   .controller('sankeyController', function ($scope,Data, SPDiagnosisSharedDataService, $interval,$location,$rootScope){
     console.log("sankeyController start!!!");
     $rootScope.pageLoading = false;
+    $scope.vm = {};
+    $scope.vm.stasAna = [
+        {
+            allEventNums: 0
+        },{
+            uniqueEventNums: 0
+        },{
+            allPatternNums: 0
+        },{
+            uniquePatternNums: 0
+        },{
+            levelDepth: 1
+        },{
+            choosePattern: ""
+        }
+    ];
+    $scope.vm.popularEvents = [];
+    $scope.vm.popularSequences = [];
+    $scope.vm.level = 1;
+    $scope.changeLevel = function (type) {
+        $scope.vm.level = type;
+        console.log($scope.vm.level);
+    }
     var units = "次",
     margin = {top: 10, right: 10, bottom: 10, left: 10},
     width = $("#sankeys").width()  - margin.left - margin.right,
@@ -21,14 +44,33 @@ angular.module('app')
       .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")"),
     // Set the sankey diagram properties
-    sankey = d3.sankey()
-      .nodeWidth(36)
-      .nodePadding(40)
+    sankey = d3.sankey(width)
+      .nodeWidth(35)
+      .nodePadding(10)
       .size([width, height]),
     path = sankey.link();
-    d3.json("data/miningresults3_reftime_NAMECN.json", function (json) {
+    Data.getSankeyData("data/L1_S100_P1.json")
+    .then(function (json) {
+        console.log(json);
+        var eventsLists = [];
+        json.forEach(function (d,i) {
+            if (d.patterns.length == 1) {
+                var tt = {};
+                tt.patterns = d.patterns[0];
+                tt.nums = d.nums;
+                $scope.vm.popularEvents.push(tt);
+            }else {
+                var pp = {};
+                pp.patterns = d.patterns.join(" -> ");
+                pp.nums = d.nums;
+                $scope.vm.popularSequences.push(pp);
+            }     
+        });
+        //console.log($scope.vm.popularEvents);
+        //console.log($scope.vm.popularSequences);
         var stv = [];
         for (var ii in json) {
+            //if json[ii]["patterns"].length > = 3
             for (var jj = 0; jj < json[ii]["patterns"].length - 1 ; jj++) {
                 var event = {};
                 event["source"] = json[ii]["patterns"][jj] + "_" + jj;
@@ -36,13 +78,16 @@ angular.module('app')
                 event["value"] = json[ii]["nums"];
                 stv.push(event);
             }
-            if (stv.length > 100) {
-                break;
-            }
+            // if (stv.length > 1000) {
+            //     break;
+            // }
         }
         createSankey(stv);
-        console.log(stv);
+        //console.log(stv);
+    }, function (error) {
+        console.log(error);
     });
+    // create sankey using d3js
     function createSankey(data) {
         //set up graph in same style as original example but empty
         var graph = {"nodes" : [], "links" : []};
@@ -89,8 +134,9 @@ angular.module('app')
             .append("path")
             .attr("class", "link")
             .attr("d", path)
-            .style("stroke-width", function (d) { 
-                return Math.max(1, d.dy);
+            .style("stroke-width", function (d) {
+                //return Math.max(1, d.dy);
+                return 2;
             })
             .sort(function (a, b) {
                 return b.dy - a.dy;
@@ -98,9 +144,9 @@ angular.module('app')
 
         // add the link titles
         link.append("title")
-            .text(function(d) {
-                return d.source.name + " → " +
-                d.target.name + "\n" + format(d.value);
+            .text(function (d) {
+                return d.source.name.substring(0, d.source.name.length - 2) + " → " +
+                d.target.name.substring(0, d.target.name.length - 2) + "\n" + format(d.value);
             });
 
         // add in the nodes
@@ -115,7 +161,7 @@ angular.module('app')
                 return "translate(" + d.x + "," + d.y + ")";
             })
             .call(d3.behavior.drag()
-            .origin(function (d) { 
+            .origin(function (d) {
                 return d;
             })
             .on("dragstart", function () {
@@ -130,14 +176,15 @@ angular.module('app')
             })
             .attr("width", sankey.nodeWidth())
             .style("fill", function (d) {
-                return color(d.name.substring(0, d.name.length - 2));
+                //return color(d.name.substring(0, d.name.length - 2));
+                return "#CCCCCC";
             })
             .style("stroke", function (d) {
                 return d3.rgb(d.color).darker(2);
             })
             .append("title")
             .text(function (d) {
-                return d.name + "\n" + format(d.value);
+                return d.name.substring(0, d.name.length - 2) + "\n" + format(d.value);
             });
 
         // add in the title for the nodes
@@ -146,11 +193,11 @@ angular.module('app')
             .attr("y", function (d) {
                 return d.dy / 2;
             })
-            .attr("dy", ".35em")
+            .attr("dy", ".25em")
             .attr("text-anchor", "end")
             .attr("transform", null)
             .text(function (d) {
-                return d.name.substring(0, 10) + "...";
+                return d.name.substring(0, d.name.length - 2).substring(0, 10) + "...";
             })
             .filter(function (d) {
                 return d.x < width / 2;
@@ -168,5 +215,5 @@ angular.module('app')
             sankey.relayout();
             link.attr("d", path);
         }
-    }  
+    }; 
 });

@@ -19,7 +19,7 @@ angular.module('app')
                 });
                 return resultIds
             },
-            getPid:function (num) {
+            getPid: function (num) {
                 var json = {"Cid":num};
                 var resultIds = $http({
                     method:'GET',
@@ -32,30 +32,30 @@ angular.module('app')
                 });
                 return resultIds
             },
-            getSankeyData:function(pid,num){
+            // getSankeyData:function(pid,num){
             
-                var json = {};
-                json["PID"] = pid;
-                json["TOP"]= num||10;
+            //     var json = {};
+            //     json["PID"] = pid;
+            //     json["TOP"]= num||10;
             
-                var jsonStr = JSON.stringify(json);
-                var canshu={"q":jsonStr};
+            //     var jsonStr = JSON.stringify(json);
+            //     var canshu={"q":jsonStr};
             
-                var results=$.ajax({
-                    type: "GET",
-                    url: 'http://1.85.37.136:9999/PatientSimilarity/',
-                    data:canshu,
-                    dataType: "json",
-                    success: function(data){
-                        console.log("get Sankey data success");
-                          console.log(data);
-                        return data;
-                    }
+            //     var results=$.ajax({
+            //         type: "GET",
+            //         url: 'http://1.85.37.136:9999/PatientSimilarity/',
+            //         data:canshu,
+            //         dataType: "json",
+            //         success: function(data){
+            //             console.log("get Sankey data success");
+            //               console.log(data);
+            //             return data;
+            //         }
             
-                });
-                // console.log(results);
-                return results;
-            },
+            //     });
+            //     // console.log(results);
+            //     return results;
+            // },
 
 
 
@@ -83,18 +83,15 @@ angular.module('app')
                 // console.log(results);
                 return results;
             },
-            
-            
-            // getSankeyData:function(){
 
-            //     var results=$http.get("data/sankey.json").then(function(response){
-            //         //console.log("getSankeyData!!!");
-            //         // console.log(response.data);
-            //         return response.data;
-            //     });
-            //     //console.log(results)
-            //     return results;
-            // },
+            getSankeyData:function(url){
+
+                var results=$http.get(url).then(function(response){
+                    return response.data;
+                });
+                //console.log(results)
+                return results;
+            },
             getNetworkStyle:function () {
                 var resultStyle=$http.get("data/style_test.txt").then(function(response){
                     return response.data;
