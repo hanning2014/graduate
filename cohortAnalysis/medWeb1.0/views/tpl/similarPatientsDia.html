@@ -9,7 +9,9 @@
     .searchs{
         height: 35px;
     }
-  
+    .w30{
+        width:120px;
+    }
 </style>
 <div ng-controller="sankeyController">
      <div class="row col-xs-12 col-sm-12 col-md-12 col-md-12 col-lg-12">
@@ -111,13 +113,13 @@
                                             </div>
                                             <div class ="col-lg-6 col-sm-6 col-xs-6">
                                                 <label>
-                                                    <input name="form-field-radio" type="radio" ng-checked="vm.level == 1" ng-click = "changeLevel(1)">
+                                                    <input name="level" type="radio" ng-checked="vm.level == 1" ng-click = "changeLevel(1)">
                                                     <span class="text"> 1 </span>
                                                 </label>
                                             </div>
                                             <div class ="col-lg-6 col-sm-6 col-xs-6">
                                                 <label>
-                                                    <input name="form-field-radio" type="radio" class="inverted" ng-checked="vm.level == 2"
+                                                    <input name="level" type="radio" class="inverted" ng-checked="vm.level == 2"
                                                     ng-click = "changeLevel(2)">
                                                     <span class="text"> 2 </span>
                                                 </label>
@@ -135,7 +137,58 @@
                                     </div>
                                     <div id="collapseFour" class="panel-collapse collapse">
                                         <div class="panel-body border-magenta">
-                                            
+                                            <!-- setting sex-->
+                                            <div class="mb10">
+                                                <span >
+                                                    性别：
+                                                </span>
+                                            </div>
+                                            <div class ="col-lg-4 col-sm-4 col-xs-4">
+                                                <label>
+                                                    <input name="sex" type="radio" ng-checked="vm.attr.sex == 1" ng-click = "changeSex(1)">
+                                                    <span class="text"> 全部 </span>
+                                                </label>
+                                            </div>
+                                            <div class ="col-lg-4 col-sm-4 col-xs-4">
+                                                <label>
+                                                    <input name="sex" type="radio" class="inverted" ng-checked="vm.attr.sex == 2"
+                                                    ng-click = "changeSex(2)">
+                                                    <span class="text"> 男 </span>
+                                                </label>
+                                            </div>
+                                            <div class ="col-lg-4 col-sm-4 col-xs-4">
+                                                <label>
+                                                    <input name="sex" type="radio" class="inverted" ng-checked="vm.attr.sex == 3"
+                                                    ng-click = "changeSex(3)">
+                                                    <span class="text"> 女 </span>
+                                                </label>
+                                            </div>
+                                            <!-- setting age range-->
+                                            <div class="mb10">
+                                                <span >
+                                                    年龄：
+                                                </span>
+                                            </div>
+                                            <div class = "col-lg-6 col-sm-6 col-xs-6">
+	                                            <input type = "text" class = "w30" placeholder="请输入起始年龄" class="mb10" ng-model = "vm.attr.age.startAge">
+	                                            </div>
+                                            <div class = "col-lg-6 col-sm-6 col-xs-6 mb10">
+                                             <input type = "text" class = "w30" placeholder="请输入截止年龄" ng-model = "vm.attr.age.endAge">
+                                             </div>
+                                             <!-- setting support-->
+                                             <div class="mb10">
+                                                <span >
+                                                    support：
+                                                </span>
+                                            </div>
+                                            <input type = "text" ng-model = "vm.attr.support" placeholder="请输入support,0~1" class="mb10">
+                                            <!-- setting sequence length-->
+                                            <div class="mb10">
+                                                <span >
+                                                    pattern length：
+                                                </span>
+                                            </div>
+                                            <input type = "text" ng-model = "vm.attr.seqLen" placeholder="请输入序列长度,最大4">
                                         </div>
                                     </div>
                                 </div>

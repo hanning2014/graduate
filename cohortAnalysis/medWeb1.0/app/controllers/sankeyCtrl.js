@@ -22,10 +22,28 @@ angular.module('app')
     $scope.vm.popularEvents = [];
     $scope.vm.popularSequences = [];
     $scope.vm.level = 1;
+    $scope.vm.attr = {};
+    $scope.vm.attr.sex = 1;
+    // level setting
     $scope.changeLevel = function (type) {
         $scope.vm.level = type;
         console.log($scope.vm.level);
-    }
+    };
+    var sexArray = {
+        1: "all",
+        2: "男",
+        3: "女"
+    };
+    // attr sex setting
+    $scope.changeSex = function (type) {
+        $scope.vm.attr.sex = type;
+        console.log("sex", sexArray[type]);
+    };
+    $scope.vm.attr.age = {};
+    $scope.vm.attr.age.startAge = 0;
+    $scope.vm.attr.age.endAge  = 120;
+    $scope.vm.attr.support = 0.5;
+    $scope.vm.attr.seqLen = 4;
     var units = "次",
     margin = {top: 10, right: 10, bottom: 10, left: 10},
     width = $("#sankeys").width()  - margin.left - margin.right,
