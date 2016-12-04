@@ -78,7 +78,7 @@ angular.module('app')
                 });
 
                 //add marker 
-                d3.json("data/popu50000.json", function (error, popu) {
+                d3.json("data/popu.json", function (error, popu) {
                     console.log("popu", popu);
                      //获取中心点坐标
                     root.features.forEach(function (d, i) {

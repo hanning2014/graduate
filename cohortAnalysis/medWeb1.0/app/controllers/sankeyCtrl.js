@@ -67,7 +67,7 @@ angular.module('app')
       .nodePadding(10)
       .size([width, height]),
     path = sankey.link();
-    Data.getSankeyData("data/L1_S100_P1.json")
+    Data.getSankeyData("data/L2_S100_P1.json")
     .then(function (json) {
         console.log(json);
         var eventsLists = [];
@@ -76,29 +76,35 @@ angular.module('app')
                 var tt = {};
                 tt.patterns = d.patterns[0];
                 tt.nums = d.nums;
-                $scope.vm.popularEvents.push(tt);
-            }else {
+                if ($scope.vm.popularEvents.length < 10) {
+                    $scope.vm.popularEvents.push(tt);
+                }
+            }else if (d.patterns.length >= 3) {
                 var pp = {};
                 pp.patterns = d.patterns.join(" -> ");
                 pp.nums = d.nums;
-                $scope.vm.popularSequences.push(pp);
-            }     
+                if ($scope.vm.popularSequences.length < 10) {
+                    $scope.vm.popularSequences.push(pp);
+                }
+            } 
         });
         //console.log($scope.vm.popularEvents);
         //console.log($scope.vm.popularSequences);
         var stv = [];
         for (var ii in json) {
-            //if json[ii]["patterns"].length > = 3
-            for (var jj = 0; jj < json[ii]["patterns"].length - 1 ; jj++) {
-                var event = {};
-                event["source"] = json[ii]["patterns"][jj] + "_" + jj;
-                event["target"] = json[ii]["patterns"][jj + 1] + "_" + (jj + 1);
-                event["value"] = json[ii]["nums"];
-                stv.push(event);
+            if (json[ii]["patterns"].length >= 3) {
+                for (var jj = 0; jj < json[ii]["patterns"].length - 1 ; jj++) {
+                    var event = {};
+                    event["source"] = json[ii]["patterns"][jj] + "_" + jj;
+                    event["target"] = json[ii]["patterns"][jj + 1] + "_" + (jj + 1);
+                    event["value"] = json[ii]["nums"];
+                    stv.push(event);
+                }
             }
-            // if (stv.length > 1000) {
-            //     break;
-            // }
+           
+            if (stv.length > 1000) {
+                break;
+            }
         }
         createSankey(stv);
         //console.log(stv);
