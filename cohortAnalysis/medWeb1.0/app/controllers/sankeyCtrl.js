@@ -102,7 +102,7 @@ angular.module('app')
                 }
             }
            
-            if (stv.length > 1000) {
+            if (stv.length > 100) {
                 break;
             }
         }
@@ -146,10 +146,33 @@ angular.module('app')
         graph.nodes.forEach(function (d, i) {
             graph.nodes[i] = { "name": d };
         });
+        // 计算最小值最大值
+        function calMaxMin(arrs) {
+            var max = 0,
+            min = 100000;
+            arrs.forEach(function (d,i) {
+                if (d.value >= max) {
+                    max = d.value;
+                }
+                if (d.value <= min) {
+                    min = d.value;
+                }
+
+            });
+            return [min, max];
+        }
+        //layout sankey
         sankey
             .nodes(graph.nodes)
             .links(graph.links)
             .layout(32);
+        var minmax = calMaxMin(graph.nodes),
+        linear = d3.scale.linear()
+        .domain([minmax[0], minmax[1]])
+        .range([0,1]),
+        palegreen = d3.rgb("#7dc5eb"),//浅绿
+        darkgreen = d3.rgb("#1195db"),//深绿
+        colors = d3.interpolate(palegreen, darkgreen);
 
         // add in the links
         var link = svg.append("g").selectAll(".link")
@@ -162,6 +185,7 @@ angular.module('app')
                 //return Math.max(1, d.dy);
                 return 2;
             })
+            .style("fill", "none")
             .sort(function (a, b) {
                 return b.dy - a.dy;
             });
@@ -191,7 +215,15 @@ angular.module('app')
             .on("dragstart", function () {
                 this.parentNode.appendChild(this);
             })
-            .on("drag", dragmove));
+            .on("drag", dragmove))
+            .on("mouseover", function (d) {
+                var that = this;
+                moover(d, this);
+            })
+            .on("mouseout", function (d) {
+                var that = this;
+                moout(d, this);
+            });
 
         // add the rectangles for the nodes
         node.append("rect")
@@ -201,15 +233,19 @@ angular.module('app')
             .attr("width", sankey.nodeWidth())
             .style("fill", function (d) {
                 //return color(d.name.substring(0, d.name.length - 2));
-                return "#CCCCCC";
+                //return "#CCCCCC";
+                return colors(linear(d.value));
             })
             .style("stroke", function (d) {
-                return d3.rgb(d.color).darker(2);
+               // return d3.rgb(d.color).darker(2);
             })
             .append("title")
             .text(function (d) {
+                //return d.name;
                 return d.name.substring(0, d.name.length - 2) + "\n" + format(d.value);
             });
+            
+
 
         // add in the title for the nodes
         node.append("text")
@@ -228,7 +264,61 @@ angular.module('app')
             })
             .attr("x", 6 + sankey.nodeWidth())
             .attr("text-anchor", "start");
-
+        // 根据某个节点找出所有相关的边节点
+        function calEdgs(node) {
+            var nodes = [];
+            //console.log(node.name);
+            nodes.push(node.name);
+            graph.links.forEach(function (d) {
+                //console.log(d);
+                if (d.source.name == node.name) {
+                    if (nodes.indexOf(d.target.name) == -1) {
+                        nodes.push(d.target.name);
+                    }
+                }
+                if (d.target.name == node.name) {
+                    if (nodes.indexOf(d.source.name) == -1) {
+                        nodes.push(d.source.name);
+                    }
+                }
+            });
+            return nodes;
+        }
+        // mouseover
+        function moover(d, that) {
+            console.log(d, that);
+            var nodes = calEdgs(d);
+            //console.log(nodes);
+            d3.selectAll("rect").style("fill", function (d) {
+                if (nodes.indexOf(d.name) >= 0) {
+                    return "#0061b0";
+                }else {
+                    return colors(linear(d.value));
+                }          
+            });
+            d3.selectAll(".link").style("fill", function (d1) {
+                console.log(d1);
+                if (d1.source.name == d.name || d1.target.name == d.name) {
+                    return "#0061b0";
+                }    
+            });
+            // d3.selectAll("rect").forEach(function (d1) {
+            //     for (var i = 0; i < d1.length; i++) {
+            //         if (nodes.indexOf(d3.select(d1[i])[0][0].textContent) > 0) {
+            //             d3.select(d1[i])[0][0].style("fill", "red");
+            //         };
+            //     }
+            // });
+        }
+        function moout() {
+            d3.selectAll("rect").style("fill", function (d) {
+                return colors(linear(d.value));
+            });
+            d3.selectAll(".link").style("fill", function (d1) {
+                return "none";
+            })
+            .style("stroke-width", 2);
+        }
         // the function for moving the nodes
         function dragmove(d) {
             d3.select(this)
