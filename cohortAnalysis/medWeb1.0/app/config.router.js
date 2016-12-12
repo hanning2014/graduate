@@ -81,6 +81,7 @@ angular.module('app')
                                             'lib/d3/crossfilter.js',
                                             'lib/d3/dc/dc.js',
                                             'lib/d3/sankey.js',
+                                            'lib/heatmap/heatmap.js',
                                             'app/controllers/populationHealthController.js'
                                         ]
                                     });

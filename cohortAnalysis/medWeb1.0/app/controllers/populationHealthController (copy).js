@@ -5,6 +5,7 @@ angular.module('app')
     $rootScope.pageLoading = false;
     $scope.vm = {};
     $scope.vm.cityNodes = [];
+    $scope.vm.tableNodes = [];
     $scope.vm.items = [
             {
                 id: 1,
@@ -38,9 +39,11 @@ angular.module('app')
         // $scope.$apply();
     };
     var margin = {left: 50, right: 0};
+    var points = [];
     drawProvienceMap("mapdata/geometryProvince/61.json");
+    // 画图
     function drawProvienceMap(mapPath) {
-        console.log(mapPath);
+        //console.log(mapPath);
         var width = $("#map").width(),
         height = 600;
         var svg = d3.select("#map").append("svg")
@@ -66,26 +69,6 @@ angular.module('app')
                     return "midnightblue";
                 })
                 .attr("d", path)
-                .on("mouseover", function (d,i) {
-                    d3.select(this).attr("fill", "red");
-                    console.log(d.properties.name);
-                    $scope.vm.hoverCityName = d.properties.name;
-                    setTimeout(function () {
-                        $scope.$apply(function () {
-                            $scope.message = "Timeout called!";
-                        });
-                    }, 100);
-                })
-                .on("mouseout", function (d,i) {
-                    var color = computeColor(linear(d.properties.values));
-                    d3.select(this).attr("fill", color.toString());
-                    $scope.vm.hoverCityName = "";
-                    setTimeout(function () {
-                        $scope.$apply(function () {
-                            $scope.message = "Timeout called!";
-                        });
-                    }, 100);
-                })
                 .on("click", function (d,i) {
                     $scope.vm.nowCityName = d.properties.name;
                     setTimeout(function () {
@@ -97,35 +80,99 @@ angular.module('app')
                 });
 
                 //add marker 
-                d3.json("data/popu.json", function (error, popu) {
+                d3.json("data/11.json", function (error, popu) {
                     console.log("popu", popu);
-
-                    popu.forEach(function (d,i) {
-                        root.features.forEach(function (d1,i1) {
-                            //console.log(d.properties.name, d3.geo.bounds(d1));
-                            if (d.lng >= d3.geo.bounds(d1)[0][0] && 
-                                d.lng <= d3.geo.bounds(d1)[1][0] &&
-                                d.lat >= d3.geo.bounds(d1)[0][1] &&
-                                d.lat >= d3.geo.bounds(d1)[1][1]) {
-                                    //console.log(d1.properties.name);
-                            }
-                        });
-                        
-                    });
-                    //获取中心点坐标
+                     //获取中心点坐标
                     root.features.forEach(function (d, i) {
-                        d.properties.values = parseInt(100 * Math.random());
+                        d.properties.values = 0;
                         var centroid = {};
-                        // centroid.x = centroid[0];
-                        // centroid.y = centroid[1];
                         centroid.id = d.properties.id;
                         centroid.name = d.properties.name;
                         //centroid.feature = d;
                         centroid.values = d.properties.values;
-                        $scope.vm.cityNodes.push((centroid));
+                        centroid.sex = "男";
+                        centroid.sexNum = 0;
+                        centroid.age = 0;
+                        $scope.vm.cityNodes.push(centroid);
                     });
-        
-                    drawcityDist($scope.vm.cityNodes);
+
+                    root.features.forEach(function (d, i) {
+                        d.properties.values = 0;
+                        var centroid = {};
+                        centroid.id = d.properties.id;
+                        centroid.name = d.properties.name;
+                        //centroid.feature = d;
+                        centroid.values = d.properties.values;
+                        centroid.sex = "女";
+                        centroid.sexNum = 0;
+                        centroid.age = 0;
+                        $scope.vm.cityNodes.push(centroid);
+                    });
+                    root.features.forEach(function (d, i) {
+                        d.properties.values = 0;
+                        var centroid = {};
+                        centroid.id = d.properties.id;
+                        centroid.name = d.properties.name;
+                        centroid.values = d.properties.values;
+                        $scope.vm.tableNodes.push(centroid);
+                    });
+                    popu.forEach(function (d,i) {
+                        root.features.forEach(function (d1,i1) {
+                            //console.log(d.properties.name, d3.geo.bounds(d1));
+                            if (d.lng >= d3.geo.bounds(d1)[0][0] &&
+                                d.lng <= d3.geo.bounds(d1)[1][0] &&
+                                d.lat >= d3.geo.bounds(d1)[0][1] &&
+                                d.lat <= d3.geo.bounds(d1)[1][1]) {
+                                    //console.log(d1.properties.name);
+                                    $scope.vm.cityNodes.forEach(function (d2, i2) {
+                                        //console.log(d2);
+                                        if (d2.id === d1.properties.id) {
+                                            if (d.sex === d2.sex) {
+                                                d2.sexNum += 1;
+                                                d2.values = d2.values + 1;
+                                            }
+                                        }
+                                    });
+                                     //console.log(d1.properties.name);
+                                    $scope.vm.tableNodes.forEach(function (d2, i2) {
+                                        if (d2.id === d1.properties.id) {
+                                            d2.values = d2.values + 1;
+                                        }
+                                    });
+                                    d1.properties.values = d1.properties.values + 1;
+                            }
+                        });
+                    });
+                    // popu.forEach(function (d) {
+                    //     //console.log(d);
+                    //     var lnla = [];
+                    //     lnla.push(d.lng);
+                    //     lnla.push(d.lat);
+                    //     var coor = projection(lnla);
+                    //     var point = {
+                    //         x: coor[0],
+                    //         y: coor[1],
+                    //         value: 100,
+                    //         radius: 5
+                    //     };
+                    //     points.push(point);
+                    //  });
+                    // // heatmap.js draw
+                    // var heatmapInstance = h337.create({
+                    //     container:  document.getElementById('map'),
+                    //     opacity: .7,
+                    //     radius: 10,
+                    //     blur: 0
+                    // });
+                    // var heatData = {
+                    //     min: 0,
+                    //     max : 1000,
+                    //     data: points
+                    // };
+                    // console.log(heatData);
+                    // heatmapInstance.setData(heatData);
+                    var cityDist = drawcityDist($scope.vm.cityNodes);
+                    drawMapColor(cityDist, root, svg, shanxi, width);
                     var location = shanxi
                         .selectAll(".location")
                         .data(popu)
@@ -137,158 +184,122 @@ angular.module('app')
                             lnla.push(d.lng);
                             lnla.push(d.lat);
                             var coor = projection(lnla);
-                            //console.log(coor);
                             return "translate(" + coor[0] + "," + coor[1] + ")";
                         });
                     location.append("circle")
                     .attr("r", 4);
                 });
-
-
-                //add circle
-                // shanxi.selectAll("circle")
-                // .data(root.features)
-                // .enter()
-                // .append("circle")
-                // .attr("transform", function (d) {
-                //     return "translate(" + path.centroid(d) + ")";
-                // })
-                // .attr("r", function (d,i) {
-                //     return Math.pow(d.properties.values, 0.5);
-                // })
-                // .attr("fill", function (d,i) {
-                //     return color(i);
-                // });
-                //获取渐变函数最大值最小值
-                function drawMapColor() {
-                    var maxvalue = d3.max(root.features, function (d,i) {
-                    return d.properties.values;
-                    }),
-                    minvalue = d3.min(root.features, function (d,i) {
-                        return d.properties.values;
-                    }),
-                    linear = d3.scale.linear()
-                                   .domain([minvalue,maxvalue])
-                                   .range([0,1]),
-                    a = d3.rgb(0, 255, 255),
-                    b = d3.rgb(0, 0, 255),
-                    computeColor = d3.interpolate(a, b);
-                    // color update
-                    shanxi.selectAll(".pathProvince")
-                    .attr("fill", function (d, i) {
-                        var color = computeColor(linear(d.properties.values));
-                        return color.toString();
-                    });
-                    // add zoom in and zoom out
-                    var zoom = d3.behavior.zoom()
-                        .translate([width / 2, height / 2])
-                        .scale(root.size * 2.7)
-                        .scaleExtent([root.size * 2.7, 8 * root.size])
-                        .on("zoom", zoomed);
-                      shanxi.call(zoom)
-                      .call(zoomed);
-                    //add rect to brush
-                    var defs = svg.append("defs"),
-                    linearGradient = defs.append("linearGradient")
-                                         .attr("id", "linearcolor")
-                                         .attr("x1", "0%")
-                                         .attr("y1", "0%")
-                                         .attr("x2", "100%")
-                                         .attr("y2", "0%"),
-                    stop1 = linearGradient.append("stop")
-                                         .attr("offset", "0%")
-                                         .attr("stop-color", a.toString()),
-                    stop2 = linearGradient.append("stop")
-                                     .attr("offset", "100%")
-                                     .attr("stop-color", b.toString()),
-                     //添加一个矩形，并应用线性渐变
-                    //tra = svg.append("g"),
-                    colorRect = svg.append("rect")
-                        .attr("x", width - margin.left - margin.right - 110)
-                        .attr("y", 520)
-                        .attr("width", 100)
-                        .attr("height", 30)
-                        .style("fill", "url(#" + linearGradient.attr("id") + ")");
-                    // symbol = d3.svg.symbol()
-                    //     .type(function () {
-                    //         return d3.svg.symbolTypes[4];
-                    //     });
-                    // var x = d3.scale.linear()
-                    //     .domain([minvalue,maxvalue])
-                    //     .range([0,100]);
-                    // var y = d3.scale.linear()
-                    //     .domain([30,30])
-                    //     .range([30,30]);
-                   //  svg.append("g")
-                   //      .attr("class", "brush")
-                   //      .attr("transform", "translate(567,520)")
-                   //      .call(
-                   //          d3.svg.brush()
-                   //              .x(x)
-                   //              //.y(y)
-                   //              .on("brushstart", brushstart)
-                   //              .on("brush", brush)
-                   //              .on("brushend", brushend)
-                   //      );
-                   //  function brushstart() {
-                   //      console.log("start");
-                   //  }
-                   //  function brush() {
-                   //      console.log("brush");
-                   //  }
-                   // function brushend() {
-                   //      console.log("brushend");
-                   //  }
-                   //  svg.append("path")
-                   //      .attr("class", "symbol")
-                   //      .attr("transform", function (d) {
-                   //          return "translate(" + (width - margin.left - margin.right - 110) + "," +
-                   //          520 + ")";
-                   //      })
-                   //      .attr("d", symbol)
-                   //      .attr("stroke", a.toString())
-                   //      .attr("stroke-width", 2)
-                   //      .attr("fill", a.toString())                
-                    svg.append("text")
-                        .attr("class", "valueText")
-                        .attr("x", width - margin.left - margin.right - 110)
-                            .attr("y", 520)
-                            .attr("dy", "-0.3em")
-                            .text(function () {
-                                return minvalue;
-                            });
-                    svg.append("text")
-                            .attr("class", "valueText")
-                            .attr("x", width - margin.left - margin.right - 20)
-                            .attr("y", 520)
-                            .attr("dy", "-0.3em")
-                            .text(function () {
-                                return maxvalue;
-                            });
-                }
-                
+                // zoom in and out
+                // add zoom in and zoom out
+                var zoom = d3.behavior.zoom()
+                    .translate([width / 2, height / 2])
+                    .scale(root.size * 2.7)
+                    .scaleExtent([root.size * 2.7, 8 * root.size])
+                    .on("zoom", zoomed);
+                shanxi.call(zoom)
+                  .call(zoomed);
                 function zoomed() {
                     projection
                     .translate(zoom.translate())
                     .scale(zoom.scale());
                     shanxi.selectAll("path")
                    .attr("d", path);
-                    // shanxi.selectAll("circle")
-                    // .attr("transform", function (d) {
-                    //     return "translate(" + path.centroid(d) + ")";
-                    // })
-                    // .attr("r", function (d,i) {
-                    //     return Math.pow(d.properties.values, 0.5);
-                    // });
                 }
             });//end json
     }//end drawMap
+
+   
+    //获取渐变函数最大值最小值
+    function drawMapColor(cityDist,root,svg,shanxi,width) {
+        //console.log(cityDist);
+        var maxvalue = d3.max(root.features, function (d,i) {
+            return d.properties.values;
+        }),
+        minvalue = d3.min(root.features, function (d,i) {
+            return d.properties.values;
+        }),
+        linear = d3.scale.linear()
+                       .domain([minvalue,maxvalue])
+                       .range([0,1]),
+        a = d3.rgb(0, 255, 255),
+        b = d3.rgb(0, 0, 255),
+        computeColor = d3.interpolate(a, b);
+        // color update
+        shanxi.selectAll(".pathProvince")
+        .attr("fill", function (d, i) {
+            var color = computeColor(linear(d.properties.values));
+            return color.toString();
+        })
+        .on("mouseover", function (d,i) {
+            d3.select(this).attr("fill", "red");
+            //console.log(d.properties.name);
+            cityDist.filter(null).filter(d.properties.name)
+            .redrawGroup();
+            $scope.vm.hoverCityName = d.properties.name;
+            setTimeout(function () {
+                $scope.$apply(function () {
+                    $scope.message = "Timeout called!";
+                });
+            }, 100);
+        })
+        .on("mouseout", function (d,i) {
+            var color = computeColor(linear(d.properties.values));
+            d3.select(this).attr("fill", color.toString());
+            cityDist.filter(null).filter(null)
+            .redrawGroup();
+            $scope.vm.hoverCityName = "";
+            setTimeout(function () {
+                $scope.$apply(function () {
+                    $scope.message = "Timeout called!";
+                });
+            }, 100);
+        });
+        //add rect to brush
+        var defs = svg.append("defs"),
+        linearGradient = defs.append("linearGradient")
+                             .attr("id", "linearcolor")
+                             .attr("x1", "0%")
+                             .attr("y1", "0%")
+                             .attr("x2", "100%")
+                             .attr("y2", "0%"),
+        stop1 = linearGradient.append("stop")
+                             .attr("offset", "0%")
+                             .attr("stop-color", a.toString()),
+        stop2 = linearGradient.append("stop")
+                         .attr("offset", "100%")
+                         .attr("stop-color", b.toString()),
+         //添加一个矩形，并应用线性渐变
+        //tra = svg.append("g"),
+        colorRect = svg.append("rect")
+            .attr("x", width - margin.left - margin.right - 110)
+            .attr("y", 520)
+            .attr("width", 100)
+            .attr("height", 30)
+            .style("fill", "url(#" + linearGradient.attr("id") + ")");          
+        svg.append("text")
+            .attr("class", "valueText")
+            .attr("x", width - margin.left - margin.right - 110)
+                .attr("y", 520)
+                .attr("dy", "-0.3em")
+                .text(function () {
+                    return minvalue;
+                });
+        svg.append("text")
+                .attr("class", "valueText")
+                .attr("x", width - margin.left - margin.right - 20)
+                .attr("y", 520)
+                .attr("dy", "-0.3em")
+                .text(function () {
+                    return maxvalue;
+                });
+    }
+
     function drawcityDist(datas) {
         datas.forEach(function (d) {
             d.id = +d.id;
             d.values = d.values;
         });
-        console.log(datas);
+        //console.log(datas);
         var ndx = crossfilter(datas);
         var all = ndx.groupAll();
         // draw city dist
@@ -316,26 +327,16 @@ angular.module('app')
         .yAxis()
         .ticks(5);
         cityDist.render();
-        drawSexDis(ndx, datas);
-    }
-    //draw sex dis
-    function drawSexDis(ndx, datas) {
-        datas.forEach(function (d) {
-            var ss = Math.random();
-            if (ss > 0.5) {
-                d.sex = "男";
-            }else {
-                d.sex = "女";
-            }
-        });
-        // draw sex dis
+
+        //draw sex dist
         $("#sexDist").html("");
         var sexDis = dc.pieChart("#sexDist"),
         sexDim = ndx.dimension(function (d) {
             return d.sex;
         }),
-        sexDimGroup = sexDim.group();
-        // sex dis 
+        sexDimGroup = sexDim.group().reduceSum(function (d) {
+            return d.sexNum;
+        });
         sexDis
             .width($("#sexDist").width() * 0.9)
             .height(200)
@@ -344,11 +345,9 @@ angular.module('app')
             .group(sexDimGroup)
             .legend(dc.legend());
         sexDis.render();
-        drawAgeDist(ndx, datas);
-    }
-    // draw ageDist
-    function drawAgeDist(ndx,datas) {
-        datas.forEach(function (d) {
+
+        //drawAgeDist(ndx, datas);
+         datas.forEach(function (d) {
             d.age = parseInt(Math.random() * 100);
         });
         //console.log(datas);
@@ -372,56 +371,40 @@ angular.module('app')
                 ].join("\n");
             });
         ageDist.render();
+        return cityDist;
     }
     // 点击某个市
     function clickCities(d, svg) {
         console.log(d);
         $("#map svg").html("");
+        $scope.vm.cityNodes = [];
+        $scope.vm.tableNodes = [];
         var id = d.properties.id,
         width = $("#map").width(),
         height = 600,
         mapPath = "mapdata/geometryCouties/" + id + "00.json",
         shanxi = svg.append("g")
         .attr("transform", "translate(0,0)");
+
         d3.json(mapPath, function (error, root) {
-            console.log(root);
+            //console.log(root);
             var zoomScale = getZoomScale(root.features, width, height),
             centers = getCenters(root.features),
             projection = d3.geo.mercator()
                 .center(centers)
                 .scale(zoomScale * 35)
-                .translate([width / 4 * 2, height / 2]),
+                .translate([width / 2, height / 2]),
             path = d3.geo.path().projection(projection);
             shanxi
-            .selectAll(".pathCouty")
+            .selectAll(".pathProvince")
             .data(root.features)
             .enter()
             .append("path")
-            .attr("class", "pathCouty")
+            .attr("class", "pathProvince")
             .attr("stroke", "#000")
             .attr("stroke-width", 0.3)
             .attr("fill", "green")
             .attr("d", path)
-            .on("mouseover", function (d,i) {
-                    d3.select(this).attr("fill", "red");
-                    console.log(d.properties.name);
-                    $scope.vm.hoverCityName = d.properties.name;
-                    setTimeout(function () {
-                        $scope.$apply(function () {
-                            $scope.message = "Timeout called!";
-                        });
-                    }, 100);
-                })
-            .on("mouseout", function (d,i) {
-                var color = computeColor(linear(d.properties.values));
-                d3.select(this).attr("fill", color.toString());
-                $scope.vm.hoverCityName = "";
-                setTimeout(function () {
-                    $scope.$apply(function () {
-                        $scope.message = "Timeout called!";
-                    });
-                }, 100);
-            })
             .on("click", function (d,i) {
                 //$scope.vm.nowCityName = d.properties.name;
                 setTimeout(function () {
@@ -431,100 +414,95 @@ angular.module('app')
                 }, 100);
                 //clickCities(d, svg);
             });
+            // draw marker
+                d3.json("data/popu.json", function (error, popu) {
+                    console.log("popu", popu);
+                     //获取中心点坐标
+                    root.features.forEach(function (d, i) {
+                        d.properties.values = 0;
+                        var centroid = {};
+                        centroid.id = d.properties.id;
+                        centroid.name = d.properties.name;
+                        //centroid.feature = d;
+                        centroid.values = d.properties.values;
+                        centroid.sex = "男";
+                        centroid.sexNum = 0;
+                        centroid.age = 0;
+                        $scope.vm.cityNodes.push(centroid);
+                    });
 
-            //获取中心点坐标
-            $scope.vm.cityNodes = [];
-            root.features.forEach(function (d, i) {
-                d.properties.values = parseInt(100 * Math.random());
-                var centroid = {};
-                centroid.id = d.properties.id;
-                centroid.name = d.properties.name;
-                centroid.values = d.properties.values;
-                $scope.vm.cityNodes.push((centroid));
-            });
-            $scope.vm.totalRec = [];
-            $scope.vm.cityNodes.forEach(function (d,i) {
-                var rec = {};
-                rec.id = d.id;
-                rec.name = d.name;
-                rec.values = d.values;
-                $scope.vm.totalRec.push(rec);
-            });
-            //console.log($scope.vm.totalRec);
-            drawcityDist($scope.vm.totalRec);
-            //add circle
-            shanxi.selectAll("circle")
-            .data(root.features)
-            .enter()
-            .append("circle")
-            .attr("transform", function (d) {
-                //console.log(path.centroid(d));
-                return "translate(" + path.centroid(d) + ")";
-            })
-            .attr("r", function (d,i) {
-                return Math.pow(d.properties.values, 0.5);
-            })
-            .attr("fill", function (d,i) {
-                return "black";
-            });
-            //获取渐变函数最大值最小值
-            var maxvalue = d3.max(root.features, function (d,i) {
-                return d.properties.values;
-            }),
-            minvalue = d3.min(root.features, function (d,i) {
-                return d.properties.values;
-            }),
-            linear = d3.scale.linear()
-                           .domain([minvalue,maxvalue])
-                           .range([0,1]),
-            a = d3.rgb(0, 255, 255),
-            b = d3.rgb(0, 0, 255),
-            computeColor = d3.interpolate(a, b);
-            // color update
-            shanxi.selectAll(".pathCouty")
-            .attr("fill", function (d, i) {
-                var color = computeColor(linear(d.properties.values));
-                return color.toString();
-            });       
-            //add rect to brush
-            var defs = svg.append("defs"),
-            linearGradient = defs.append("linearGradient")
-                                 .attr("id", "linearcolor")
-                                 .attr("x1", "0%")
-                                 .attr("y1", "0%")
-                                 .attr("x2", "100%")
-                                 .attr("y2", "0%"),
-            stop1 = linearGradient.append("stop")
-                                 .attr("offset", "0%")
-                                 .attr("stop-color", a.toString()),
-            stop2 = linearGradient.append("stop")
-                             .attr("offset", "100%")
-                             .attr("stop-color", b.toString()),
-             //添加一个矩形，并应用线性渐变
-            colorRect = svg.append("rect")
-                .attr("x", width - margin.left - margin.right - 110)
-                .attr("y", 520)
-                .attr("width", 100)
-                .attr("height", 30)
-                .style("fill", "url(#" + linearGradient.attr("id") + ")");
-            svg.append("text")
-                .attr("class", "valueText")
-                .attr("x", width - margin.left - margin.right - 110)
-                    .attr("y", 520)
-                    .attr("dy", "-0.3em")
-                    .text(function () {
-                        return minvalue;
+                    root.features.forEach(function (d, i) {
+                        d.properties.values = 0;
+                        var centroid = {};
+                        centroid.id = d.properties.id;
+                        centroid.name = d.properties.name;
+                        //centroid.feature = d;
+                        centroid.values = d.properties.values;
+                        centroid.sex = "女";
+                        centroid.sexNum = 0;
+                        centroid.age = 0;
+                        $scope.vm.cityNodes.push(centroid);
                     });
-            svg.append("text")
-                    .attr("class", "valueText")
-                    .attr("x", width - margin.left - margin.right - 20)
-                    .attr("y", 520)
-                    .attr("dy", "-0.3em")
-                    .text(function () {
-                        return maxvalue;
+                    root.features.forEach(function (d, i) {
+                        d.properties.values = 0;
+                        var centroid = {};
+                        centroid.id = d.properties.id;
+                        centroid.name = d.properties.name;
+                        centroid.values = d.properties.values;
+                        $scope.vm.tableNodes.push(centroid);
                     });
+                    var locationList = [];
+                    popu.forEach(function (d,i) {
+                        root.features.forEach(function (d1,i1) {
+                            //console.log(d.properties.name, d3.geo.bounds(d1));
+                            if (d.lng >= d3.geo.bounds(d1)[0][0] &&
+                                d.lng <= d3.geo.bounds(d1)[1][0] &&
+                                d.lat >= d3.geo.bounds(d1)[0][1] &&
+                                d.lat <= d3.geo.bounds(d1)[1][1]) {
+                                    //console.log(d1.properties.name);
+                                    $scope.vm.cityNodes.forEach(function (d2, i2) {
+                                        //console.log(d2);
+                                        if (d2.id === d1.properties.id) {
+                                            if (d.sex === d2.sex) {
+                                                d2.sexNum += 1;
+                                                d2.values = d2.values + 1;
+                                            }
+                                        }
+                                    });
+                                     //console.log(d1.properties.name);
+                                    $scope.vm.tableNodes.forEach(function (d2, i2) {
+                                        if (d2.id === d1.properties.id) {
+                                            d2.values = d2.values + 1;
+                                        }
+                                    });
+                                    d1.properties.values = d1.properties.values + 1;
+                            }
+                        });
+                    });
+                    console.log($scope.vm.cityNodes);
+                    var cityDist = drawcityDist($scope.vm.cityNodes);
+                    drawMapColor(cityDist,root,svg,shanxi,width);
+                    // var location = shanxi
+                    //     .selectAll(".location")
+                    //     .data(popu)
+                    //     .enter()
+                    //     .append("g")
+                    //     .attr("class", "location")
+                    //     .attr("transform", function (d) {
+                    //         var lnla = [];
+                    //         lnla.push(d.lng);
+                    //         lnla.push(d.lat);
+                    //         var coor = projection(lnla);
+                    //         //console.log(coor);
+                    //         return "translate(" + coor[0] + "," + coor[1] + ")";
+                    //     });
+                    // location.append("circle")
+                    // .attr("r", 4);
+                });
         });
     }
+
+    //获取中心位置坐标
     function getCenters(features) {
         var longitudeMin = 100000;//最小经度
         var latitudeMin = 100000;//最小维度
@@ -549,7 +527,7 @@ angular.module('app')
         var b = (latitudeMax + latitudeMin) / 2;
         return [a, b];
     }
-
+    // 获取缩放范围
     function getZoomScale(features, width, height) {
         var longitudeMin = 100000;//最小经度
         var latitudeMin = 100000;//最小维度
