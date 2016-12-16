@@ -88,6 +88,35 @@ angular.module('app')
                                 }
                             ]
                         }
+                    })
+                      .state('app.heatmap', {
+                        url: '/heatmap',
+                        templateUrl: 'views/tpl/heatmap.html',
+                        ncyBreadcrumb: {
+                            label: '地理位置分析',
+                            description: ''
+                        },
+                        resolve: {
+                            deps: [
+                                '$ocLazyLoad',
+                                function ($ocLazyLoad) {
+                                    return $ocLazyLoad.load({
+                                        serie: true,
+                                        files: [
+                                            'lib/d3/dc/dc.css',
+                                            'styles/spSankey.css',
+                                            'lib/treeview/theme.selector.min.js',
+                                            'lib/d3/d3.v3.min.js',
+                                            'lib/d3/crossfilter.js',
+                                            'lib/d3/dc/dc.js',
+                                            'lib/d3/sankey.js',
+                                            'lib/heatmap/heatmap.js',
+                                            'app/controllers/heatmapController.js'
+                                        ]
+                                    });
+                                }
+                            ]
+                        }
                     });
             }
         ]);

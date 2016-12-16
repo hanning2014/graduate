@@ -1,0 +1,104 @@
+<!--html for population health-->
+<style>
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+</style>
+<div ng-controller="populationHealthController">
+     <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+	        <div class="widget">
+	            <div class="widget-header bordered-bottom bordered-sky">
+	                <span class="widget-caption">地理位置分布</span>
+	            </div><!--Widget Header-->
+	            <div class="widget-body">
+	                <div>
+	                    <select ng-model = "item" ng-options="item.name for item in vm.items" ng-click = "changeMap(item.name)">
+	                    </select>
+                        <span class="pull-right">地图总体区域：
+                        <b>
+                            <a ng-click = "changeMap()">陕西省
+                            </a>
+                        </b>
+                        </br>
+                        当前区域:<b>{{vm.nowCityName}}</b>
+                        </br>
+                        悬浮区域:<b>{{vm.hoverCityName}}</b>
+                        </span>
+	                </div>
+	                <div id ="map">
+					</div>
+	            </div><!--Widget Body-->
+	        </div><!--Widget-->
+        </div>
+        <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+         	<div class="widget">
+	            <div class="widget-header bordered-bottom bordered-sky">
+	                <span class="widget-caption">分析结果</span>
+	            </div><!--Widget Header-->
+	            <div class="widget-body">
+	               <div id = "barcharts" class ="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	                    <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	                       <div id ="cityDist">
+	                       </div>
+	                    </div>
+	                    <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		                    <div id ="sexDist">
+		                    </div>
+	                    </div>
+	                    <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+	                        <div id ="bloodDist">
+	                        </div>
+	                    </div>
+                        <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div id ="jobDist">
+                            </div>
+                        </div>
+                        <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div id ="deptDist">
+                            </div>
+                        </div>
+                        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div id ="ageDist">
+                            </div>
+                        </div>
+	               </div>
+	               <hr class = "wide">
+	               <div>
+	                  <table class="table table-hover">
+                        <thead class="bordered-darkorange">
+                            <tr>
+                                <th>
+                                    编号
+                                </th>
+                                <th>
+                                    城市名称
+                                </th>
+                                <th ng-bind = "vm.stasLabel">
+                                    
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat = "item in vm.cityNodes">
+                                <td ng-bind = "item.id">
+                                   
+                                </td>
+                                <td ng-bind = "item.name">
+                                    
+                                </td>
+                                <td ng-bind = "item.values">
+                                 
+                                </td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+	               </div>
+	            </div><!--Widget Body-->
+	        </div><!--Widget-->
+        </div>
+     </div>
+</div>
