@@ -2,7 +2,7 @@
 angular.module('app')
   .controller('populationHealthController', function ($scope,Data,$rootScope) {
     console.log("populationHealthController start!!!");
-    $rootScope.pageLoading = true;
+    $rootScope.pageLoading = false;
     $scope.vm = {};
     $scope.vm.cityNodes = [];
     $scope.vm.items = [
@@ -66,10 +66,46 @@ angular.module('app')
                                 drawCity(d, svg, 2);
                            });
 
-            drawMarker("data/p10000.json", res, svg, shanxi, width, projection, 1);
-
+            //drawMarker("data/p10000.json", res, svg, shanxi, width, projection, 1);
+            drawHeatMap(shanxi);
     }
 
+
+    function drawHeatMap(svg) {
+        // minimal heatmap instance configuration
+        var heatmapInstance = h337.create({
+          // only container is required, the rest will be defaults
+          container: document.querySelector('svg')
+        });
+         
+        // now generate some random data
+        var points = [];
+        var max = 0;
+        var width = $("svg").width();
+        var height = 400;
+        var len = 200;
+         
+        while (len--) {
+          var val = Math.floor(Math.random()*100);
+          max = Math.max(max, val);
+          var point = {
+            x: Math.floor(Math.random()*width),
+            y: Math.floor(Math.random()*height),
+            value: val
+          };
+          points.push(point);
+        }
+        // heatmap data format
+        var data = {
+          max: max,
+          data: points
+        };
+        // if you have a set of datapoints always use setData instead of addData
+        // for data initialization
+        heatmapInstance.setData(data);
+    }
+
+    // draw marker
     function drawMarker(url, datas, svg, shanxi, width, projection, index) {
         datas.features.forEach(function (d,i) {
             d.properties.values = 0;
